@@ -1,0 +1,5764 @@
+//colors
+$color_wild_sand_approx: #f5f5f5;
+$color_gallery_approx: #eee;
+$science_blue: #06c;
+$storm_dust: #646463;
+$black: #000;
+$color_log_cabin_approx: #222222;
+$color_jelly_bean_approx: #2574a9;
+$color_cod_gray_approx: #080808;
+$color_pink_swan_approx: #b9b9b9;
+$white: #fff;
+$color_ironside_gray_approx: #686868;
+$color_masala_approx: #3a3a3a;
+$color_mercury_86_approx: rgba(231, 231, 231, 0.86);
+$color_rolling_stone_approx: #798184;
+$white_100: rgba(255,255,255,1);
+$gallery: #efefef;
+$color_bunker_approx: #121214;
+$color_mine_shaft_approx: #313131;
+$concrete: #f2f2f2;
+$alabaster: #fafafa;
+$color_quill_gray_approx: #d5d5d5;
+$color_celeste_approx: #ccc;
+$color_kilamanjaro_approx: #230505;
+$white_16: rgba(255, 255, 255, 0.16);
+$color_regal_blue_approx: #044d72;
+$color_suva_gray_approx: #888888;
+$color_pale_slate_approx: #c3c3c3;
+$color_merlin_57_approx: rgba(69, 58, 58, 0.57);
+$color_finlandia_approx: rgb(91, 102, 91);
+$color_pale_slate_59_approx: rgba(195, 195, 195, 0.59);
+$color_bon_jour_approx: #e1e1e1;
+$color_fuscous_gray_approx: #4f4f4f;
+$color_tuatara_approx: #343436;
+$color_shark_approx: #242424;
+$mine_shaft: #323232;
+$color_alto_approx: #ddd;
+$color_dove_gray_approx: #6f6d69;
+$color_concord_approx: #7e7c78;
+$color_iron_approx: #d7d7d7;
+$color_desert_storm_approx: #f8f8f8;
+$color_rangoon_green_approx: #181818;
+$white_30: rgba(255,255,255,.3);
+$black_10: rgba(0,0,0,.1);
+$color_gray_nurse_approx: #e8e8e8;
+$color_tapa_approx: #777777;
+$black_20: rgba(0, 0, 0, 0.2);
+$color_storm_dust_approx: #666;
+$black_80: rgba(0,0,0,0.8);
+$black_40: rgba(0, 0, 0, 0.4);
+$black_70: rgba(0, 0, 0, 0.7);
+$color_westar_59_approx: rgba(217, 221, 209, 0.59);
+$color_woodsmoke_approx: #111;
+$color_silver_chalice_approx: #aaaaaa;
+$black_50: rgba(0, 0, 0, 0.5);
+$red: #ff0000;
+$color_pippin_approx: #fbe3e4;
+$color_falu_red_approx: #8a1f11;
+$color_your_pink_approx: #fbc2c4;
+$color_mercury_approx: #e3e3e3;
+$color_shady_lady_approx: #a9a9a9;
+$color_hunter_green_approx: #161616;
+$color_sushi_approx: #77be32;
+$color_red_orange_approx: #f2333a;
+$color_gravel_approx: #444647;
+$color_mountain_mist_approx: #999999;
+$color_lightning_yellow_70_approx: rgba(247,194,33,0.7);
+$color_del_rio_73_approx: rgba(180, 151, 151, 0.73);
+$color_alabaster_approx: rgb(247,251,252);
+$color_powder_blue_approx: rgb(179,220,237);
+$color_scooter_approx: rgba(41,184,229,1);
+$color_cerulean_approx: rgba(15,177,226,1);
+$color_seashell_34_approx: rgba(240, 241, 242, 0.34);
+$color_gray_nurse_95_approx: rgba(233, 233, 233, 0.95);
+$gray: grey;
+$color_sushi_71_approx: rgba(125, 153, 61, 0.71);
+$color_indian_khaki_30_approx: rgba(194, 187, 150, 0.3);
+$blue: blue;
+$color_conifer_approx: #bada55;
+$color_moody_blue_50_approx: rgba(120,120,230,0.5);
+$color_moody_blue_10_approx: rgba(120,120,230,0.1);
+$color_snuff_61_approx: rgba(233, 209, 234, 0.61);
+$color_twilight_61_approx: rgba(225, 208, 225, 0.61);
+$color_wheatfield_approx: rgba(243, 243, 210, 1);
+$color_heathered_gray_37_approx: rgba(180, 180, 155, 0.37);
+$color_boston_blue_approx: #428bca;
+$color_tiara_92_approx: rgba(203, 208, 209, 0.92);
+$color_romance_36_approx: rgba(254, 254, 254, 0.36);
+$color_black_haze_approx: rgb(246,248,249);
+$black_8: rgba(0,0,0,0.08);
+$color_chicago_20_approx: rgba(92, 85, 85, 0.2);
+$color_celeste_10_approx: rgba(206, 206, 206, 0.1);
+$color_pine_glade_40_approx: rgba(191, 207, 149, 0.4);
+$color_timberwolf_approx: #dbcfcf;
+$color_scarlet_75_approx: rgba(249, 20, 20, 0.75);
+$color_gum_leaf_77_approx: rgba(181, 215, 183, 0.77);
+$color_picton_blue_approx: #3fb6da;
+$color_tahuna_sands_91_approx: rgba(238, 246, 206, 0.91);
+$color_alto_91_approx: rgba(222, 222, 222, 0.91);
+$color_ebb_65_approx: rgba(237, 227, 227, 0.65);
+$color_steel_blue_approx: #337ab7;
+
+//fonts
+$font_0: southern_aire_personal_use_Rg;
+$font_1: Lato;
+$font_2: sans-serif;
+$font_3: PT Sans;
+$font_4: FontAwesome;
+$font_5: bariol_lightlight;
+$font_6: Pacifico;
+$font_7: revicons;
+$font_8: cursive;
+
+//urls
+$url_0: url(../images/body_bg_01.png);
+$url_1: url(../images/remove.png);
+$url_2: url(demos/custom_wrapper_bg.jpg);
+$url_3: url(demos/bg.jpg);
+$url_4: url(../images/flexslider_shadow.png);
+$url_5: url(../images/slider-shadow.png);
+$url_6: url(../images/error.gif);
+$url_7: url(../images/success.gif);
+$url_8: url(../images/arrow.png);
+$url_9: url(../images/breadcrumb.png);
+$url_10: url(../fonts/southernaire_personal_use_only.eot);
+$url_11: url(../fonts/southernaire_personal_use_only.eot?#iefix);
+$url_12: url(../fonts/southernaire_personal_use_only.woff);
+$url_13: url(../fonts/southernaire_personal_use_only.ttf);
+$url_14: url(../fonts/southernaire_personal_use_only.svg#southern_aire_personal_use_Rg);
+$url_15: url(../images/maintenance_bg.png);
+$url_16: url(../images/loading.gif);
+$url_17: url(images/add.png);
+$url_18: url(images/serach.png);
+
+//@extend-elements
+//original selectors
+//.buddy_members .popover.top > .arrow, .buddy_carousel .popover.top > .arrow
+%extend_1 {
+	border-top: 5px solid $white;
+	border-left: 5px solid rgba(0, 0, 0, 0);
+	border-right: 5px solid rgba(0, 0, 0, 0);
+	bottom: -12px !important;
+	height: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	width: 0;
+}
+
+//original selectors
+//.buddy_members .popover, .buddy_carousel .popover
+%extend_2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	display: block;
+	overflow: visible;
+	max-width: 276px;
+	padding: 1px;
+	text-align: center;
+	background-color: $white;
+	//Instead of the line below you could use @include background-clip($clip)
+	background-clip: padding-box;
+	border: 1px solid $color_gallery_approx;
+	border: 1px solid $black_20;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+	white-space: normal;
+}
+
+//original selectors
+//.magnifier .sg, .magnifier .st, .magnifier .sf
+%extend_3 {
+	border: 1px solid $white;
+	color: $white;
+	display: block;
+	display: inline-block !important;
+	float: none !important;
+	font-size: 16px;
+	height: 40px;
+	line-height: 38px;
+	margin: -10px 2px 0;
+	text-align: center;
+	width: 40px;
+}
+
+//original selectors
+//#page #show_attachment, #page #page_element, #content_header #content_element
+%extend_4 {
+	clear: both;
+	display: block;
+	width: 670px;
+	margin: 10px 5px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px 10px 10px 10px;
+	float: left;
+	text-align: left;
+	padding: 5px 15px;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 1px 5px 10px 5px $color_suva_gray_approx;
+}
+
+
+:root {
+	var---icons-color: $science_blue;
+	var---header-style-1-color: $storm_dust;
+}
+body {
+	font-family: $font_1, $font_2;
+	font-weight: 350;
+	font-size: 12px;
+	color: $black;
+	line-height: 175%;
+}
+h1 {
+	letter-spacing: 0;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-family: $font_3, $font_2;
+	line-height: 140% !important;
+	color: $color_log_cabin_approx;
+	font-size: 28px;
+	color: var(--header-style-1-color);
+	&.bgc {
+		background-color: $color_gallery_approx;
+		Padding: 10px;
+	}
+	a {
+		color: $color_log_cabin_approx !important;
+		text-decoration: none !important;
+		&:hover {
+			color: $white !important;
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+h2 {
+	letter-spacing: 0;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-family: $font_3, $font_2;
+	line-height: 140% !important;
+	color: $color_log_cabin_approx;
+	font-size: 1.2em;
+	color: var(--header-style-1-color);
+	font-weight: bold;
+	&.bgc {
+		background-color: $color_gallery_approx;
+		Padding: 10px;
+	}
+	a {
+		color: $color_log_cabin_approx !important;
+		text-decoration: none !important;
+		&:hover {
+			color: $white !important;
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+h3 {
+	letter-spacing: 0;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-family: $font_3, $font_2;
+	line-height: 140% !important;
+	color: $color_log_cabin_approx;
+	font-size: 15px;
+	&.bgc {
+		background-color: $color_gallery_approx;
+		Padding: 10px;
+	}
+	a {
+		color: $color_log_cabin_approx !important;
+		text-decoration: none !important;
+		&:hover {
+			color: $white !important;
+			background-color: var(--header-style-1-color);
+		}
+	}
+	&.nav-panel {
+		background-color: $color_picton_blue_approx;
+		padding: 10px;
+		margin: 10px -10px;
+		font-weight: bold;
+		font-family: $font_1, $font_2;
+		color: $white;
+	}
+}
+h4 {
+	letter-spacing: 0;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-family: $font_3, $font_2;
+	line-height: 140% !important;
+	color: $color_log_cabin_approx;
+	font-size: 16px;
+	a {
+		color: $color_log_cabin_approx !important;
+		text-decoration: none !important;
+		&:hover {
+			color: $white !important;
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+h5 {
+	letter-spacing: 0;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-family: $font_3, $font_2;
+	line-height: 140% !important;
+	color: $color_log_cabin_approx;
+	font-size: 14px;
+	a {
+		color: $color_log_cabin_approx !important;
+		text-decoration: none !important;
+		&:hover {
+			color: $white !important;
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+h6 {
+	letter-spacing: 0;
+	position: relative;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-family: $font_3, $font_2;
+	line-height: 140% !important;
+	color: $color_log_cabin_approx;
+	font-size: 13px;
+	a {
+		color: $color_log_cabin_approx !important;
+		text-decoration: none !important;
+		&:hover {
+			color: $white !important;
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+.navbar-fixed-top {
+	border: 0;
+	z-index: 1200;
+	.container-fluid {
+		background: $color_jelly_bean_approx;
+		border-color: $color_cod_gray_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: 1px 1px 3px 3px $color_pink_swan_approx;
+	}
+}
+a {
+	color: $color_log_cabin_approx;
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .2s linear, color .2s linear;
+	color: var(--icons-color);
+	&:hover {
+		text-decoration: none;
+		color: $color_ironside_gray_approx;
+	}
+	&:focus {
+		text-decoration: none;
+		color: $color_ironside_gray_approx;
+	}
+	&.readmore {
+		display: block;
+		font-style: italic;
+		color: var(--icons-color);
+	}
+	&.navbar-brand {
+		color: $color_masala_approx !important;
+		font-size: 35px;
+		font-weight: 900;
+		margin-top: 5px;
+		line-height: 36px;
+	}
+	&.remove {
+		display: block;
+		height: 18px;
+		width: 18px;
+		margin: 10px;
+		padding-left: 0 !important;
+		text-indent: -9999px;
+		background: $url_1 $color_rolling_stone_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 100px;
+		border-style: solid;
+		border-width: 1px;
+	}
+	&.show {
+		display: inline-block !important;
+	}
+}
+ul {
+	padding-left: 0;
+	&.search_form {
+		display: block;
+		li {
+			margin-bottom: 5px;
+		}
+		input {
+			width: 160px;
+		}
+		select {
+			width: 160px;
+		}
+	}
+	&.column {
+		padding: 1px 2px 4px 10px;
+		line-height: 100%;
+		li {
+			display: inline-block;
+			font-size: 10px !important;
+			margin-bottom: 3px;
+			label {
+				display: inline-block;
+				font-size: 10px !important;
+				margin-bottom: 3px;
+			}
+		}
+		&.one_column li {
+			width: 600px;
+			padding: 5px 10px;
+			input {
+				width: 300px;
+			}
+			label {
+				width: 200px;
+			}
+		}
+		&.two_column li {
+			width: 400px;
+			label {
+				width: 400px;
+			}
+		}
+		&.three_column li {
+			width: 285px;
+			label {
+				width: 285px;
+			}
+		}
+		&.four_column li {
+			width: 220px;
+			margin-right: 30px;
+			label {
+				width: 220px;
+				margin-right: 30px;
+			}
+		}
+		&.five_column li {
+			width: 220px;
+			margin-right: 30px;
+			label {
+				width: 220px;
+				margin-right: 30px;
+			}
+		}
+		&.six_column li {
+			width: 135px;
+			label {
+				width: 135px;
+			}
+		}
+	}
+	&.form_top {
+		display: block;
+		height: 30px;
+		margin-top: 0;
+		padding-top: 5px;
+		padding-left: 10px;
+		border: 2px solid $color_alabaster_approx;
+		background: $color_powder_blue_approx;
+		background: linear-gradient(135deg, $color_powder_blue_approx 1%,$color_scooter_approx 8%,$color_scooter_approx 26%,$color_powder_blue_approx 75%,$color_cerulean_approx 89%);
+	}
+	&.line_field li {
+		display: inline-block;
+		min-width: 200px;
+		max-width: 250px;
+		float: left;
+	}
+	&.small_box li {
+		display: inline-block;
+		margin-right: 20px;
+		float: left;
+	}
+	&.medium_box li {
+		display: inline-block;
+		margin-right: 20px;
+		float: left;
+	}
+	&.large_box li {
+		display: inline-block;
+		margin-right: 20px;
+		float: left;
+	}
+	&.form_buttons li {
+		display: inline-block;
+	}
+	&.second_level li {
+		margin-right: 25px;
+	}
+}
+.lead {
+	font-family: $font_3, $font_2;
+	font-size: 18px;
+}
+.hidden {
+	display: none;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.text-left {
+	text-align: left !important;
+}
+mark {
+	padding: 6px 12px;
+	background-color: var(--header-style-1-color);
+	color: $white !important;
+}
+section::before {
+	position: absolute;
+	content: '';
+	pointer-post-wraps: none;
+}
+section::after {
+	position: absolute;
+	content: '';
+	pointer-post-wraps: none;
+}
+.first {
+	clear: both !important;
+}
+.last {
+	margin-right: 0 !important;
+}
+.nopadding {
+	padding: 0 !important;
+}
+.padding-top {
+	padding: 30px 0 10px;
+}
+.margin-top {
+	margin-top: 2em;
+}
+.vimeo_video {
+	border: none;
+}
+.soundcloud {
+	border: none;
+	width: 100%;
+}
+.rev_video_slider {
+	width: 100%;
+	height: 100%;
+}
+.rsNav {
+	display: block;
+	clear: both;
+	margin-bottom: 80px !important;
+}
+.header_center {
+	.navbar-nav {
+		display: inline-block;
+		float: none;
+		margin: 0;
+	}
+	.logo_center {
+		padding: 20px 0 30px !important;
+	}
+	a.navbar-brand {
+		margin: 0 auto !important;
+		display: inline-block;
+		position: relative;
+		float: none !important;
+	}
+	.navbar-collapse.collapse {
+		text-align: center;
+		height: auto !important;
+		overflow: visible !important;
+	}
+}
+.dark_header {
+	background: $color_bunker_approx !important;
+	border-bottom-color: $color_log_cabin_approx !important;
+	.arrow-up {
+		border-bottom-color: $color_bunker_approx !important;
+	}
+	.topbar-email {
+		border-left: 1px solid $color_mine_shaft_approx !important;
+		border-right: 1px solid $color_mine_shaft_approx !important;
+	}
+	.topbar-phone {
+		border-left: 1px solid $color_mine_shaft_approx !important;
+		border-right: 1px solid $color_mine_shaft_approx !important;
+	}
+	.topbar-login {
+		border-left: 1px solid $color_mine_shaft_approx !important;
+		border-right: 1px solid $color_mine_shaft_approx !important;
+	}
+	.topbar-cart {
+		border-left: 1px solid $color_mine_shaft_approx !important;
+		border-right: 1px solid $color_mine_shaft_approx !important;
+	}
+	.navbar-default {
+		background: $color_bunker_approx !important;
+	}
+	a.navbar-brand {
+		color: $white !important;
+	}
+	.navbar-nav > li > a {
+		color: $white !important;
+	}
+	.social-icons span {
+		a {
+			border-left-color: $color_mine_shaft_approx !important;
+		}
+		&.last a {
+			border-right-color: $color_mine_shaft_approx !important;
+		}
+	}
+}
+#header-style-1 {
+	padding: 14px 0;
+	background-color: var(--header-style-1-color);
+	border-bottom: 1px solid $concrete;
+	&.affix {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin-top: 0;
+		padding: 10px 0;
+		min-height: inherit;
+		z-index: 999;
+		background: $white;
+		background: $white_100;
+		border-bottom: 1px solid $gallery;
+		.navbar {
+			margin-top: 0;
+		}
+		.navbar-brand {
+			line-height: 38px;
+			img {
+				width: 80%;
+				margin-top: 7px;
+			}
+		}
+		a.navbar-brand {
+			font-size: 31px !important;
+			margin: 5px 0 0;
+		}
+		.navbar-nav > li > .dropdown-menu {
+			margin-top: 12px !important;
+		}
+	}
+	.navbar-default {
+		background-color: $white;
+		background: $white_100;
+		border-color: rgba(0, 0, 0, 0);
+		.navbar-nav > .open > a {
+			color: $white !important;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 03px;
+			background-color: var(--header-style-1-color);
+			&:hover {
+				color: $white !important;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 03px;
+				background-color: var(--header-style-1-color);
+			}
+			&:focus {
+				color: $white !important;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 03px;
+				background-color: var(--header-style-1-color);
+			}
+		}
+	}
+	.navbar-brand {
+		padding: 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+	}
+	.yamm {
+		.nav {
+			position: static;
+		}
+		.collapse {
+			position: static;
+		}
+		.dropup {
+			position: static;
+		}
+		.dropdown {
+			position: static;
+			&.yamm-fw .dropdown-menu {
+				left: 0;
+				right: 0;
+				background-color: $color_wild_sand_approx;
+				//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+				box-shadow: none;
+				margin-top: 25px;
+				border-top: 3px solid $white;
+				border-top-color: var(--icons-color) !important;
+			}
+		}
+		.container {
+			position: relative;
+		}
+		.dropdown-menu {
+			left: auto;
+			right: auto;
+		}
+		.yamm-content {
+			padding: 20px;
+		}
+		img {
+			margin-bottom: 10px;
+		}
+		h3 {
+			text-transform: uppercase;
+			font-size: 14px;
+			color: $color_log_cabin_approx;
+			padding: 5px 0;
+			i {
+				color: var(--icons-color);
+			}
+		}
+	}
+	.yamm-fw {
+		.dropdown-menu li {
+			list-style: none;
+			padding: 0;
+			a {
+				color: $color_log_cabin_approx !important;
+				padding: 5px 15px;
+				&:before {
+					font-family: $font_4;
+					content: "\f105";
+					font-size: 13px;
+					padding-right: 5px;
+					color: var(--icons-color);
+				}
+			}
+		}
+		.nav.navbar-right .dropdown-menu {
+			left: auto;
+			right: 0;
+		}
+	}
+	.dropdown-menu {
+		left: 0;
+		right: 0;
+		background-color: $color_wild_sand_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		margin-top: 25px;
+		border-top: 3px solid $white;
+		border-top-color: var(--icons-color) !important;
+		padding: 0 !important;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 !important;
+		li {
+			float: none;
+			display: block;
+			margin: 0;
+			text-align: left;
+			border: 0;
+			border-bottom: 1px solid $color_quill_gray_approx;
+			a {
+				text-decoration: none;
+				display: block;
+				position: relative;
+				font-family: $font_3, $font_2;
+				padding: 10px 20px;
+				&:focus {
+					background-color: $alabaster;
+				}
+				&:active {
+					background-color: $alabaster;
+				}
+				&:hover {
+					background-color: $alabaster;
+				}
+			}
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+	.nav-pills {
+		margin-top: 10px;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	.navbar-nav > li > a {
+		text-transform: uppercase;
+		color: $color_log_cabin_approx;
+		font-family: $font_3, $font_2;
+		padding: 7px 18px;
+		margin-top: 8px;
+		&:hover {
+			color: $white !important;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 03px;
+			background-color: var(--header-style-1-color);
+		}
+		&:focus {
+			color: $white !important;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 03px;
+			background-color: var(--header-style-1-color);
+		}
+		&:active {
+			color: $white !important;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 03px;
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+.white-wrapper {
+	background-color: $white;
+	padding: 30px 0;
+	.testimonial h3 {
+		color: $color_log_cabin_approx !important;
+	}
+	#owl-testimonial .owl-controls .owl-page.active span {
+		background-color: var(--header-style-1-color);
+	}
+}
+.topbar {
+	border-bottom: 1px solid $color_gallery_approx;
+	font-family: $font_3, $font_2;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 100px $color_celeste_approx;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 1px 5px 10px 5px $color_kilamanjaro_approx;
+	background: $white_16;
+}
+.product-topbar {
+	background: $color_regal_blue_approx;
+}
+.social-icons {
+	padding: 0;
+	display: block;
+	overflow: hidden;
+	span a {
+		border-left: 1px solid $concrete;
+		font-size: 14px;
+		text-align: center;
+		width: 40px;
+		height: 42px;
+		line-height: 42px;
+		overflow: hidden;
+		display: block;
+		float: left;
+	}
+}
+#topbar {
+	color: $color_suva_gray_approx;
+	a {
+		color: $color_suva_gray_approx;
+	}
+	.topbar-email {
+		float: left;
+		padding: 0 15px;
+		line-height: 42px;
+		border-right: 1px solid $concrete;
+		border-left: 1px solid $concrete;
+		border-right: none;
+	}
+	.topbar-phone {
+		float: left;
+		padding: 0 15px;
+		line-height: 42px;
+		border-right: 1px solid $concrete;
+		border-left: 1px solid $concrete;
+		border-right: none;
+	}
+	.topbar-login {
+		float: left;
+		padding: 0 15px;
+		line-height: 42px;
+		border-right: 1px solid $concrete;
+		border-left: 1px solid $concrete;
+		border-right: none;
+		i {
+			color: var(--icons-color);
+		}
+	}
+	.topbar-cart {
+		float: left;
+		padding: 0 15px;
+		line-height: 42px;
+		border-right: 1px solid $concrete;
+		border-left: 1px solid $concrete;
+		i {
+			color: var(--icons-color);
+		}
+	}
+	.col-lg-4 {
+		padding-left: 0;
+	}
+	.col-lg-8 {
+		padding-right: 0;
+	}
+	.callus {
+		display: block;
+		float: right;
+		i {
+			color: var(--icons-color);
+		}
+	}
+	.topmenu {
+		display: block;
+		float: right;
+	}
+	.social-icons span {
+		&:hover a {
+			color: $white !important;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 03px;
+		}
+		&.last a {
+			border-right: 1px solid $concrete;
+		}
+		a:hover {
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+.yamm {
+	.dropdown-submenu {
+		position: relative;
+		&.pull-left {
+			float: none;
+		}
+		&:hover>.dropdown-menu {
+			display: block;
+		}
+		&.pull-left>.dropdown-menu {
+			left: -100%;
+			margin-left: 10px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 6px 0 6px 6px;
+		}
+	}
+	.dropdown-submenu>.dropdown-menu {
+		top: 0;
+		left: 100% !important;
+		margin-top: -3px !important;
+		margin-left: -1px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0 6px 6px 6px;
+	}
+}
+#copyrights {
+	background-color: $color_cod_gray_approx;
+	padding: 20px 0 10px;
+	color: $color_pale_slate_approx;
+	display: block;
+	position: relative;
+}
+#half_copyrights {
+	background-color: $color_merlin_57_approx;
+	color: $white;
+	display: block;
+	padding: 2px 10px;
+	position: absolute;
+	width: 98%;
+	a {
+		color: $white;
+	}
+}
+#footer-style-2 {
+	font-weight: bold;
+	border-top: 10px solid $color_finlandia_approx;
+	padding: 40px 0;
+	display: block;
+	position: relative;
+	color: $color_pale_slate_59_approx;
+	background-color: $color_mine_shaft_approx;
+	.widget {
+		color: $white !important;
+		h3 {
+			font-size: 20px;
+		}
+		.title h3 {
+			text-transform: none;
+			color: $white !important;
+		}
+	}
+	p {
+		color: $white !important;
+	}
+	.social-icons span a {
+		border: none;
+		color: $color_ironside_gray_approx;
+		&:hover {
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+	}
+}
+#footer-style-3 {
+	font-weight: bold;
+	border-top: 10px solid $color_finlandia_approx;
+	padding: 40px 0;
+	display: block;
+	position: relative;
+	color: $color_pale_slate_59_approx;
+	background-color: $color_mine_shaft_approx;
+	.widget {
+		color: $white !important;
+		h3 {
+			font-size: 20px;
+		}
+		.title h3 {
+			text-transform: none;
+			color: $white !important;
+		}
+	}
+	p {
+		color: $white !important;
+	}
+	.social-icons span a {
+		border: none;
+		color: $color_ironside_gray_approx;
+		&:hover {
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+	}
+}
+#footer-style-1 {
+	font-weight: bold;
+	border-top: 10px solid $color_finlandia_approx;
+	padding: 40px 0;
+	display: block;
+	position: relative;
+	color: $color_pale_slate_59_approx;
+	background-color: $color_mine_shaft_approx;
+	.widget {
+		color: $white !important;
+		h3 {
+			font-size: 20px;
+		}
+		.title h3 {
+			text-transform: none;
+			color: $white !important;
+		}
+	}
+	p {
+		color: $white !important;
+	}
+	.social-icons span a {
+		border: none;
+		color: $color_ironside_gray_approx;
+		&:hover {
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+	}
+}
+.footer-menu {
+	ul {
+		list-style: none;
+		list-style-position: outside;
+		float: right;
+		display: inline;
+		margin: 5px;
+	}
+	li {
+		line-height: 12px;
+		float: left;
+		padding: 0 7px;
+		a {
+			color: $color_pale_slate_approx;
+			&:hover {
+				color: var(--icons-color);
+			}
+			&:focus {
+				color: var(--icons-color);
+			}
+		}
+	}
+}
+.text-widget {
+	p {
+		margin-bottom: 15px;
+	}
+	h1 {
+		font-family: $font_1, $font_2;
+		font-size: 36px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+}
+.custom-widget {
+	h2 {
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+	p {
+		font-size: 18px;
+		font-weight: 300;
+	}
+}
+.popular_items {
+	margin: 20px 0;
+	img {
+		width: 100px;
+		padding-right: 10px;
+		float: left;
+	}
+	.popular_items_div {
+		display: block;
+		margin-bottom: 25px;
+		overflow: hidden;
+		position: relative;
+		h4 {
+			margin-bottom: 5px !important;
+			padding-bottom: 0;
+		}
+	}
+	.meta {
+		color: $color_log_cabin_approx;
+		font-size: 12px;
+		a {
+			color: $color_log_cabin_approx;
+		}
+		span {
+			padding-right: 3px;
+			i {
+				padding-right: 3px;
+				color: var(--icons-color);
+			}
+		}
+	}
+}
+.blog-carousel {
+	img {
+		width: 100%;
+	}
+	.entry {
+		display: block;
+		position: relative;
+	}
+}
+.blog-carousel-header {
+	position: relative;
+	display: block;
+	margin-bottom: 0;
+	padding-bottom: 10px;
+	h3 {
+		padding-bottom: 0;
+		font-size: 18px;
+		margin-bottom: 5px;
+	}
+	h1 {
+		padding-bottom: 0;
+		margin-bottom: 5px;
+		text-transform: uppercase;
+	}
+}
+.post-type {
+	color: $white;
+	font-size: 18px;
+	height: 42px;
+	line-height: 42px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	bottom: 0;
+	z-index: 10;
+	width: 52px;
+	background: $color_log_cabin_approx;
+}
+.social_like {
+	position: relative;
+	display: block;
+	.icon-container {
+		color: $color_log_cabin_approx;
+		margin: 0 15px 0 0;
+		background: $white;
+		border-color: var(--icons-color);
+	}
+	.btn {
+		width: 86px;
+	}
+	h3 {
+		font-size: 18px !important;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+.social_button {
+	position: absolute;
+	right: 0;
+	top: 10px;
+}
+#tabbed_widget-1 {
+	.nav-tabs > li {
+		&.active > a {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			background-color: var(--header-style-1-color);
+			&:hover {
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				background-color: var(--header-style-1-color);
+			}
+			&:focus {
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				background-color: var(--header-style-1-color);
+			}
+		}
+		> a {
+			background: $color_bon_jour_approx;
+			border: none;
+			margin-right: 1px;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			color: $color_log_cabin_approx;
+		}
+	}
+	.nav > li > a {
+		&:hover {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			background-color: var(--header-style-1-color);
+		}
+		&:focus {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+#tabbed_widget {
+	.nav-tabs {
+		border-bottom: none;
+		> li {
+			&.active > a {
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+				&:hover {
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 0;
+					background-color: var(--header-style-1-color);
+					color: $white !important;
+				}
+				&:focus {
+					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+					border-radius: 0;
+					background-color: var(--header-style-1-color);
+					color: $white !important;
+				}
+			}
+			> a {
+				background: $color_bon_jour_approx;
+				border: none;
+				margin-right: 1px;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				color: $color_log_cabin_approx;
+			}
+		}
+	}
+	.tab-content {
+		padding: 20px 5px;
+		border: none;
+	}
+	.nav > li > a {
+		&:hover {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+		&:focus {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+	}
+	.recent_posts_widget img {
+		max-width: 120px !important;
+		padding: 4px;
+		&:hover {
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+#two-sidebar {
+	.widget {
+		margin-bottom: 30px;
+		overflow: hidden;
+	}
+	.readmore {
+		font-weight: 300 !important;
+	}
+	.newsletter_form .form-control {
+		background-color: $color_wild_sand_approx;
+		border: 1px solid $gallery;
+	}
+	.recent_posts_widget li {
+		color: $color_log_cabin_approx !important;
+		font-weight: normal;
+		a {
+			color: $color_log_cabin_approx !important;
+			font-weight: normal;
+		}
+	}
+}
+#sidebar {
+	.widget {
+		margin-bottom: 30px;
+		overflow: hidden;
+	}
+	.readmore {
+		font-weight: 300 !important;
+	}
+	.newsletter_form .form-control {
+		background-color: $color_wild_sand_approx;
+		border: 1px solid $gallery;
+	}
+	.recent_posts_widget li {
+		color: $color_log_cabin_approx !important;
+		font-weight: normal;
+		a {
+			color: $color_log_cabin_approx !important;
+			font-weight: normal;
+		}
+	}
+}
+.widget {
+	h3 {
+		font-size: 24px;
+		span {
+			color: var(--icons-color);
+		}
+	}
+	.title h3 {
+		text-transform: uppercase;
+	}
+}
+.twitter_feed {
+	padding-left: 0;
+	li {
+		list-style: none;
+		overflow: hidden;
+		margin-bottom: 30px;
+		p {
+			margin-top: -30px;
+			padding-left: 30px;
+		}
+		span:before {
+			color: $color_fuscous_gray_approx;
+			padding-left: 0 !important;
+			font-family: $font_4;
+			content: "\f099";
+			padding: 10px;
+			vertical-align: text-top;
+			font-size: 21px;
+		}
+	}
+}
+.newsletter_form {
+	.form-control {
+		background-color: $color_bunker_approx;
+		border: 1px solid $color_tuatara_approx;
+	}
+	.btn {
+		margin-top: 10px;
+	}
+}
+.buddypress_tabber_widget {
+	.group_img {
+		left: -10px;
+		padding: 10px;
+		position: absolute;
+		text-align: left;
+		top: 0;
+	}
+	.group_box {
+		border: none;
+		margin: 10px 0 25px;
+		padding: 10px 0;
+		.title h3 {
+			padding-bottom: 0;
+			padding-left: 110px;
+			margin: 0;
+			padding-top: 0;
+			text-align: left;
+		}
+	}
+	.circle {
+		left: 67px !important;
+		top: 7px !important;
+		right: inherit;
+	}
+	.group_timer {
+		padding-bottom: 0;
+		padding-left: 110px;
+		margin: 0;
+		padding-top: 10px;
+		text-align: left;
+	}
+	li a {
+		color: $color_log_cabin_approx !important;
+		font-weight: normal;
+	}
+}
+.recent_posts_widget {
+	img {
+		float: left;
+		margin: 5px 15px 0 0;
+	}
+	a {
+		color: $white !important;
+	}
+	> li {
+		display: table;
+		height: 60px;
+		margin-bottom: 20px;
+		width: 100%;
+		&:last-child {
+			border-bottom: 0 solid $white;
+		}
+		img {
+			max-width: 75px !important;
+			padding: 4px;
+			&:hover {
+				background-color: var(--header-style-1-color);
+			}
+		}
+	}
+}
+.testimonial_widget {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: $color_wild_sand_approx;
+	border: 1px solid $color_alto_approx;
+}
+.testimonial-widget {
+	color: $color_log_cabin_approx;
+	text-align: center;
+	.lead {
+		padding-top: 30px;
+	}
+	.testimonial .lead {
+		&:after {
+			content: "\f10e" !important;
+			color: $color_log_cabin_approx;
+			font-family: $font_4;
+			content: "\f10d";
+			padding: 10px;
+			vertical-align: text-top;
+			font-size: 21px;
+		}
+		&:before {
+			color: $color_log_cabin_approx;
+			font-family: $font_4;
+			content: "\f10d";
+			padding: 10px;
+			vertical-align: text-top;
+			font-size: 21px;
+		}
+	}
+}
+.testimonial-wrap {
+	background-color: $color_wild_sand_approx;
+	padding: 30px 20px;
+	border-bottom: 3px solid $color_dove_gray_approx;
+	border-color: var(--icons-color);
+	.lead {
+		font-weight: 300 !important;
+		font-family: $font_1;
+		font-size: 18px !important;
+	}
+}
+#owl-testimonial-widget {
+	.img-circle {
+		border: 3px solid $white;
+		width: 100px;
+		border-color: var(--icons-color);
+	}
+	h3 {
+		font-size: 16px;
+		font-weight: 600;
+		margin: 0;
+		padding: 0;
+	}
+	.owl-controls {
+		.owl-prev:hover {
+			background-color: var(--header-style-1-color);
+		}
+		.owl-next:hover {
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+.testimonial-carousel {
+	a {
+		color: $color_log_cabin_approx !important;
+	}
+	.media {
+		margin: 20px auto 10px !important;
+		display: inline-block !important;
+	}
+}
+.overlay {
+	padding: 60px 0;
+	background-color: $black_70;
+	.testimonial-widget {
+		color: $white !important;
+		.img-thumbnail {
+			background-color: $color_concord_approx;
+			border: 1px solid $color_dove_gray_approx;
+		}
+		.testimonial .lead {
+			&:after {
+				color: $white !important;
+			}
+			&:before {
+				color: $white !important;
+			}
+		}
+	}
+	.contact_details {
+		color: $white !important;
+	}
+	h2 {
+		color: $white !important;
+	}
+	.lead {
+		color: $white !important;
+	}
+	#owl-testimonial .owl-controls .owl-page.active span {
+		background-color: var(--header-style-1-color);
+	}
+}
+.box {
+	padding: 20px;
+	border: 1px solid $color_gallery_approx;
+	.price {
+		font-size: 16px;
+		margin: 10px;
+	}
+}
+.cart_table {
+	img {
+		margin-right: 10px;
+	}
+	.price2 {
+		font-size: 16px;
+		margin: 10px;
+		color: var(--icons-color);
+	}
+	.price {
+		font-size: 18px;
+		color: $color_log_cabin_approx;
+		margin: 10px;
+	}
+	.cart_title {
+		font-size: 18px;
+		color: $color_log_cabin_approx;
+		margin: 10px;
+	}
+	.rating {
+		padding: 5px 10px 10px !important;
+		overflow: hidden !important;
+	}
+}
+.btn-shop {
+	.form-control {
+		width: 45px;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		background: $gallery;
+		border-color: $color_alto_approx;
+		height: 34px !important;
+		margin: 0;
+		padding-right: 0;
+		&:focus {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+		}
+	}
+	span {
+		background: $color_rangoon_green_approx;
+		background-image: none;
+		border: 0;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 1.42857;
+		margin: 0 -3px;
+		color: $white;
+		padding: 7px 12px;
+		text-align: center;
+		vertical-align: middle;
+		white-space: nowrap;
+	}
+}
+#buddypress_features {
+	padding: 40px 0;
+	margin: 20px 0;
+	overflow: hidden;
+	.nav {
+		li {
+			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 14px;
+		}
+		i {
+			text-align: center;
+			display: block;
+			font-size: 24px;
+		}
+	}
+	.nav-tabs {
+		background: $color_log_cabin_approx;
+		border: none;
+		> li > a {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			border-bottom: 1px solid $color_alto_approx;
+			line-height: 2.1;
+			color: $white !important;
+			border: none !important;
+			&:hover {
+				background-color: var(--header-style-1-color);
+			}
+			&:focus {
+				background-color: var(--header-style-1-color);
+			}
+		}
+	}
+	.tab-content {
+		padding: 20px;
+		border-bottom: 1px solid $color_alto_approx !important;
+		border-right: 1px solid $color_alto_approx !important;
+		border-left: 1px solid $color_alto_approx !important;
+		overflow: hidden;
+	}
+}
+#shop_features {
+	padding: 40px 0;
+	margin: 20px 0;
+	overflow: hidden;
+	.nav-tabs {
+		background: $color_desert_storm_approx;
+		border: 1px solid $color_alto_approx;
+		> li > a {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 0;
+			border-bottom: 1px solid $color_alto_approx;
+			line-height: 2.1;
+		}
+	}
+	.tab-content {
+		padding: 20px;
+		border-bottom: 1px solid $color_alto_approx !important;
+		border-right: 1px solid $color_alto_approx !important;
+		border-left: 1px solid $color_alto_approx !important;
+		overflow: hidden;
+		ul {
+			padding: 0 0 10px 20px;
+			li {
+				list-style: square;
+			}
+		}
+	}
+	.nav li {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 14px;
+	}
+}
+#custom_tab {
+	.tab-content {
+		padding: 20px;
+		border-bottom: 1px solid $color_alto_approx !important;
+		border-right: 1px solid $color_alto_approx !important;
+		border-left: 1px solid $color_alto_approx !important;
+		overflow: hidden;
+		ul {
+			padding: 0 0 10px 20px;
+			li {
+				list-style: square;
+			}
+		}
+	}
+	.nav-tabs > li > a {
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		border-bottom: 1px solid $color_alto_approx;
+		line-height: 2.1;
+	}
+}
+.shop_item_details {
+	ul {
+		padding-left: 0;
+		margin: 15px 0;
+		overflow: hidden;
+		li {
+			list-style: none;
+			margin: 0 0 12px;
+		}
+	}
+	strong {
+		color: $color_rangoon_green_approx;
+		padding-right: 10px;
+	}
+}
+.shop_item {
+	margin-bottom: 20px;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	.magnifier {
+		.buttons {
+			top: 44%;
+			margin-top: 0 !important;
+		}
+		.st {
+			padding: 0 10px;
+			width: auto;
+		}
+	}
+	.entry {
+		display: block;
+		position: relative;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	.price {
+		font-size: 14px !important;
+		font-weight: 500;
+		color: var(--icons-color);
+	}
+	.cats {
+		font-weight: lighter !important;
+		display: block;
+		font-size: 14px !important;
+		a {
+			color: $color_tapa_approx;
+		}
+	}
+	.shop_title span {
+		font-size: 16px;
+		font-weight: 500;
+		color: $color_log_cabin_approx;
+	}
+}
+.shop-banner {
+	margin-bottom: 17px;
+	position: relative;
+	img {
+		width: 100%;
+	}
+	.title {
+		opacity: 1;
+		text-align: center;
+		position: absolute;
+		top: 27%;
+		left: 0;
+		right: 0;
+		h1 {
+			color: $white;
+			font-size: 42px;
+			font-weight: bold;
+		}
+	}
+}
+.banner-hover {
+	background: $white_30;
+	padding: 10px;
+	border: 10px solid $black_10;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	bottom: 20px;
+	right: 20px;
+	opacity: 1;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s ease-in-out;
+	&.big {
+		left: 30px;
+		right: 30px;
+	}
+}
+.royalSlider {
+	img {
+		width: 100%;
+	}
+	.entry {
+		display: block;
+		position: relative;
+	}
+}
+.big_title_onepage {
+	font-size: 60px;
+	font-weight: bold;
+	font-family: $font_3, $font_2;
+	text-transform: uppercase;
+	border: 6px solid $white;
+	padding: 40px;
+	color: $white !important;
+	span {
+		color: var(--icons-color);
+	}
+}
+.small_thin_grey1 {
+	font-size: 14px;
+	color: $white !important;
+	i {
+		padding: 0 5px;
+		color: var(--icons-color);
+	}
+}
+.cat_widget {
+	border: 3px solid $white;
+	h3 {
+		font-family: $font_1, $font_2;
+		font-size: 18px;
+		text-transform: uppercase;
+		color: var(--icons-color);
+	}
+	.entry {
+		display: block;
+		position: relative;
+	}
+	&:hover {
+		border-color: var(--icons-color);
+	}
+	.magnifier .buttons {
+		top: 38%;
+	}
+}
+.team_member {
+	.entry {
+		display: block;
+		position: relative;
+	}
+	img {
+		width: 100%;
+	}
+	span {
+		color: var(--icons-color);
+	}
+}
+.portfolio_item {
+	.entry {
+		display: block;
+		position: relative;
+	}
+	img {
+		width: 100%;
+	}
+	.magnifier .buttons {
+		top: 44%;
+	}
+}
+.product_list_widget {
+	padding-left: 0;
+}
+.woo_btn {
+	padding: 7px 12px !important;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0 !important;
+}
+.shop_desc {
+	padding: 14px 0;
+	overflow: hidden;
+}
+#content {
+	padding-bottom: 60px;
+}
+.buddy_members {
+	.item {
+		float: left;
+		margin: 13px;
+		padding: 0;
+	}
+	.popover {
+		@extend %extend_2;
+		border-color: var(--icons-color);
+		&.top {
+			margin-top: -60px;
+			z-index: 9999;
+			overflow: visible;
+			position: absolute;
+			> .arrow {
+				@extend %extend_1;
+				&:after {
+					border-top: 10px solid var(--icons-color) !important;
+				}
+			}
+		}
+	}
+	.popover-title {
+		margin: 0;
+		padding: 15px 14px 0;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 18px;
+		text-transform: uppercase;
+		background-color: $white;
+		border-bottom: 1px solid $white;
+	}
+	.popover-content {
+		width: 200px;
+		padding: 5px 4px 20px;
+	}
+	img:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+.buddypress_content {
+	margin: 20px 0 40px;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.buddypress-top {
+	h3 {
+		margin-top: 10px;
+	}
+	h2 {
+		margin-top: 10px;
+	}
+}
+.buddy_desc {
+	padding: 15px;
+	border: 1px solid $color_quill_gray_approx;
+	border-color: var(--icons-color);
+	small {
+		display: block;
+		color: $color_log_cabin_approx;
+		margin: 10px 0;
+	}
+	h3 {
+		padding: 5px 0;
+		text-transform: uppercase;
+		font-weight: bold;
+		margin: 0;
+	}
+}
+.group_box {
+	width: 100%;
+	border: 1px solid $color_quill_gray_approx;
+	position: relative;
+	display: block;
+	text-align: center;
+	padding: 30px 0 10px;
+	font-size: 16px;
+	font-weight: normal;
+	margin: 35px 0;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	i {
+		padding-right: 5px;
+		color: var(--icons-color);
+	}
+	a {
+		color: $color_log_cabin_approx;
+	}
+	&:hover {
+		border-color: var(--icons-color);
+		.circle {
+			color: $white;
+			border-color: var(--icons-color);
+			background-color: var(--header-style-1-color);
+		}
+	}
+	.title h3 {
+		padding-bottom: 0;
+		padding-top: 10px;
+		font-size: 18px;
+		font-weight: bold;
+	}
+}
+.arrow-left {
+	border-bottom: 10px solid rgba(0, 0, 0, 0);
+	border-right: 10px solid $color_quill_gray_approx;
+	border-top: 10px solid rgba(0, 0, 0, 0);
+	height: 0;
+	left: -10px;
+	position: absolute;
+	top: 15%;
+	width: 0;
+	border-right-color: var(--icons-color);
+}
+.circle {
+	top: -53px;
+	right: -46px;
+	left: 0;
+	z-index: 10;
+	font-size: 12px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid $color_quill_gray_approx;
+	margin: auto;
+	line-height: 30px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 30px;
+	position: absolute;
+	background: $white;
+}
+.buddy_carousel {
+	margin: 40px 0 20px;
+	.popover {
+		@extend %extend_2;
+		border-color: var(--icons-color);
+		&.top {
+			margin-top: -60px;
+			z-index: 9999;
+			overflow: visible;
+			position: absolute;
+			> .arrow {
+				@extend %extend_1;
+				&:after {
+					border-top: 10px solid var(--icons-color) !important;
+				}
+			}
+		}
+	}
+	.owl-controls {
+		padding: 20px 0 0;
+		.owl-page {
+			span {
+				width: 15px !important;
+				height: 15px !important;
+				border: 1px solid $color_alto_approx;
+			}
+			&.active span {
+				background-color: var(--header-style-1-color);
+			}
+		}
+		&.clickable .owl-page:hover span {
+			background-color: var(--header-style-1-color);
+		}
+	}
+	.item {
+		margin: auto;
+		text-align: center;
+	}
+	.owl-wrapper-outer {
+		overflow: visible;
+	}
+	.popover-title {
+		margin: 0;
+		padding: 15px 14px 0;
+		font-size: 16px;
+		font-weight: bold;
+		line-height: 18px;
+		text-transform: uppercase;
+		background-color: $white;
+		border-bottom: 1px solid $white;
+	}
+	.popover-content {
+		width: 200px;
+		padding: 5px 4px 20px;
+	}
+	img:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+.group_img {
+	left: 0;
+	margin: 0 auto;
+	padding: 10px;
+	position: absolute;
+	right: 0;
+	top: -55px;
+	text-align: center;
+}
+.masonry_wrapper {
+	overflow: hidden;
+	margin: 30px 0;
+	.item {
+		margin: 0 2px 4px;
+		padding: 0;
+		img {
+			height: auto !important;
+			height: 100% !important;
+			width: 100%;
+			position: relative;
+			z-index: -2;
+		}
+	}
+}
+#boxed-portfolio {
+	display: block !important;
+	overflow: visible !important;
+	position: relative;
+	z-index: 10;
+	margin-bottom: 20px;
+	.portfolio_item {
+		width: 100% !important;
+		height: auto !important;
+		margin: 0 0 20px;
+		overflow: hidden;
+	}
+}
+.portfolio-filter {
+	text-align: center;
+	overflow: hidden;
+	margin: 40px 0 15px;
+	ul {
+		list-style: none;
+		padding-left: 10px;
+	}
+	li {
+		display: inline;
+		margin-right: 5px;
+		padding: 0;
+		a {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 4px;
+		}
+	}
+}
+.isotope-item {
+	z-index: 2;
+}
+.isotope {
+	//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
+	transition-duration: 0.8s;
+	//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+	transition-property: height, width;
+	.isotope-item {
+		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
+		transition-duration: 0.8s;
+		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+		transition-property: transform, opacity;
+		&.no-transition {
+			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
+			transition-duration: 0s;
+		}
+	}
+	&.no-transition {
+		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
+		transition-duration: 0s;
+		.isotope-item {
+			//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
+			transition-duration: 0s;
+		}
+	}
+}
+.magnifier {
+	background: $black;
+	background: $black_80;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .3s ease-in-out;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: scale(1);
+	.btn-default {
+		padding: 0 20px !important;
+		color: $color_log_cabin_approx !important;
+		width: auto !important;
+		&:hover {
+			border-color: var(--icons-color);
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+		&:focus {
+			border-color: var(--icons-color);
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+		&:active {
+			border-color: var(--icons-color);
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+	}
+	.sg {
+		@extend %extend_3;
+	}
+	.st {
+		@extend %extend_3;
+	}
+	.sf {
+		@extend %extend_3;
+	}
+	h4 {
+		color: $white;
+		text-align: center;
+		font-size: 16px;
+		padding: 10px 0;
+		margin-bottom: 20px;
+		display: block;
+		font-family: $font_5;
+	}
+	h3 {
+		color: $white;
+		text-align: center;
+	}
+	.buttons {
+		visibility: hidden;
+		opacity: 0;
+		position: absolute;
+		text-align: center;
+		width: 100%;
+		top: 50%;
+		margin-top: -20px;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(0.2);
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: all 0.3s ease 0s;
+	}
+	&:hover .buttons {
+		opacity: 1;
+		visibility: visible;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: scale(1);
+	}
+}
+.custom-wrapper {
+	background: $url_2 no-repeat center center;
+	background-size: cover;
+	.col-lg-6 {
+		padding: 0;
+	}
+	.overlay {
+		background-color: $black_40;
+		padding: 0;
+	}
+	.testimonial h3 {
+		color: $color_log_cabin_approx !important;
+	}
+}
+.parallax {
+	background-attachment: fixed !important;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.jt-shadow {
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 1px 3px $black_10 inset;
+}
+.custom-overlay {
+	padding: 60px 0;
+	background-color: $color_lightning_yellow_70_approx;
+}
+.dark-wrapper {
+	background-color: $color_log_cabin_approx;
+	padding: 60px 0;
+}
+.grey-wrapper {
+	background-color: $color_wild_sand_approx;
+	padding: 40px 0;
+	#accordion-second {
+		.accordion-heading {
+			background: $white;
+			.accordion-toggle {
+				background: $white;
+				&.active {
+					background: $white;
+				}
+			}
+		}
+		.accordion-inner {
+			background: $white;
+		}
+		.accordion-toggle:hover {
+			background: $white;
+		}
+	}
+	.testimonial-wrap {
+		background: $white;
+	}
+	.pricing_detail {
+		background: $white;
+		.priceamount {
+			border-color: $color_wild_sand_approx;
+		}
+	}
+}
+.green-wrapper {
+	background-color: $color_westar_59_approx;
+	padding: 30px 0;
+}
+.blog-wrapper {
+	background-color: $white;
+	padding: 30px 0;
+	hr {
+		margin-top: 40px;
+		margin-bottom: 40px;
+	}
+}
+.custom-message {
+	padding: 90px 0;
+	h1 {
+		text-align: center;
+		font-weight: bold;
+		font-size: 54px;
+	}
+}
+#boxed {
+	background: $url_3 no-repeat center center fixed;
+	background-size: cover;
+	#wrapper {
+		background: $white;
+		margin: 50px auto;
+	}
+	.white-wrapper {
+		margin: 0 -15px;
+	}
+	.grey-wrapper {
+		margin: 0 -15px;
+	}
+	#topbar {
+		border: none;
+		.topbar-email {
+			border: none;
+		}
+		.topbar-phone {
+			border: none;
+		}
+		.topbar-login {
+			border: none;
+		}
+		.topbar-cart {
+			border: none;
+		}
+		.social-icons span {
+			a {
+				border: none;
+			}
+			&.last a {
+				border: none;
+			}
+		}
+	}
+}
+.general-title {
+	text-align: center;
+	hr {
+		width: 30px;
+		margin-bottom: 0;
+		margin-top: 0;
+		border-width: 2px 0 0;
+		border-color: var(--icons-color);
+	}
+	h2 {
+		font-size: 31px;
+		text-rendering: optimizeSpeed;
+		letter-spacing: 0.6px;
+		padding-bottom: 0;
+		font-weight: bold;
+	}
+	.lead {
+		margin-top: 10px !important;
+		font-family: $font_1, $font_2;
+		font-weight: 300;
+		line-height: 1.9;
+		margin: 15px 0;
+	}
+}
+.messagebox {
+	text-align: center;
+	.lead {
+		font-family: $font_1, $font_2;
+		font-weight: 300;
+		line-height: 1.9;
+		margin: 15px 0;
+	}
+	h1 {
+		color: $white;
+		font-weight: bold;
+		font-size: 30px;
+	}
+	.btn-dark {
+		background: $color_log_cabin_approx !important;
+		color: $white !important;
+		&:hover {
+			background: $color_log_cabin_approx !important;
+			color: $white !important;
+		}
+	}
+	h2 {
+		font-size: 30px;
+	}
+}
+.rsUni {
+	background: $color_wild_sand_approx !important;
+	.rsOverflow {
+		background: $color_wild_sand_approx !important;
+	}
+	.rsSlide {
+		background: $color_wild_sand_approx !important;
+	}
+	.rsVideoFrameHolder {
+		background: $color_wild_sand_approx !important;
+	}
+	.rsThumbs {
+		background: $color_wild_sand_approx !important;
+	}
+	.rsThumb.rsNavSelected .thumbIco {
+		background-color: $color_lightning_yellow_70_approx;
+	}
+}
+#gallery-2 {
+	width: 100%;
+	//Instead of the line below you could use @include user-select($select)
+	user-select: none;
+}
+.aboutslider-shadow {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	.s1 {
+		background: $url_4 center no-repeat;
+		height: 29px;
+		margin: 0 auto;
+		bottom: -28.5px;
+		overflow: hidden;
+		width: 100%;
+		position: absolute;
+		left: 0;
+	}
+}
+.slider-shadow {
+	background: $url_5 center center no-repeat;
+	width: 100%;
+	height: 77px;
+	display: block;
+	z-index: 0;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto;
+	&.without {
+		margin-top: -20px !important;
+	}
+}
+.fullscreen-container {
+	width: 100%;
+	position: relative;
+	padding: 0;
+	display: none;
+}
+.fullwidthbanner-container {
+	width: 100%;
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+	ul {
+		display: none;
+	}
+	.fullwidthbanner {
+		width: 100%;
+		position: relative;
+	}
+}
+#slider-in-laptop {
+	width: 100%;
+	height: auto;
+	padding: 3% 15% 0 16%;
+	background: none;
+	.rsOverflow {
+		background: $color_bunker_approx;
+	}
+	.rsSlide {
+		background: $color_bunker_approx;
+	}
+	.rsVideoFrameHolder {
+		background: $color_bunker_approx;
+	}
+	.rsThumbs {
+		background: $color_bunker_approx;
+	}
+	.rsBullets {
+		bottom: -50px;
+	}
+}
+.imgBg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+.laptopBg {
+	position: relative;
+	width: 100%;
+	height: auto;
+}
+.shop_title_slider_2 {
+	font-size: 36px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: $color_log_cabin_approx;
+}
+.shop_title_slider {
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: $white;
+	span {
+		color: var(--icons-color);
+	}
+}
+.high_title2 {
+	font-size: 48px;
+	font-family: $font_1, $font_2;
+	font-weight: normal !important;
+	letter-spacing: 0;
+	line-height: 120% !important;
+	padding: 0 0 10px;
+	position: relative;
+	color: var(--icons-color);
+}
+.high_title {
+	font-size: 70px;
+	font-family: $font_1, $font_2;
+	font-weight: 100 !important;
+	letter-spacing: 0;
+	line-height: 140% !important;
+	padding: 0 0 10px;
+	position: relative;
+	color: var(--icons-color);
+}
+.big_title_slider {
+	color: $white;
+	font-size: 40px;
+	font-family: $font_3, $font_2;
+	font-weight: bold;
+	letter-spacing: 0;
+	line-height: 140% !important;
+	padding: 0 0 10px;
+	position: relative;
+	span {
+		color: var(--icons-color);
+	}
+}
+.big_title {
+	color: $color_log_cabin_approx;
+	font-size: 36px;
+	font-family: $font_3, $font_2;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 140% !important;
+	padding: 0 0 10px;
+	position: relative;
+	span {
+		color: var(--icons-color);
+	}
+}
+.slider_title_a {
+	color: $color_log_cabin_approx;
+	font-size: 36px;
+	font-family: $font_6, $font_2;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 140% !important;
+	padding: 0 0 10px;
+	position: relative;
+	color: var(--icons-color);
+}
+.upper_title {
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: $font_3, $font_2;
+}
+.small_title2 {
+	color: $color_log_cabin_approx !important;
+	color: $white;
+	font-family: $font_1, $font_2;
+	font-size: 20px;
+	letter-spacing: 0;
+	padding: 0 0 10px;
+	font-weight: lighter;
+	position: relative;
+	line-height: 140% !important;
+}
+.mini_title2 {
+	font-family: $font_3, $font_2;
+	font-size: 16px !important;
+	font-weight: normal !important;
+	color: $color_log_cabin_approx !important;
+	i {
+		color: var(--icons-color);
+	}
+}
+.light_title {
+	color: $white;
+	font-family: $font_1, $font_2;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: 0;
+	padding: 0 0 10px;
+	position: relative;
+	line-height: 140% !important;
+}
+.small_title {
+	color: $white;
+	font-family: $font_1, $font_2;
+	font-size: 20px;
+	letter-spacing: 0;
+	padding: 0 0 10px;
+	font-weight: lighter;
+	position: relative;
+	line-height: 140% !important;
+	span {
+		color: var(--icons-color);
+	}
+}
+.mini_title {
+	color: $white;
+	font-family: $font_1, $font_2;
+	font-size: 14px;
+	font-weight: bold !important;
+	letter-spacing: 0;
+	padding: 0 0 10px;
+	font-weight: lighter;
+	position: relative;
+	line-height: 140% !important;
+	span {
+		font-size: 24px;
+		color: var(--icons-color);
+	}
+}
+.tparrows {
+	border: 2px solid $color_silver_chalice_approx;
+	cursor: pointer;
+	background: $black_50 !important;
+	width: 60px !important;
+	height: 60px !important;
+	&:before {
+		font-family: $font_7;
+		color: $white;
+		font-style: normal;
+		font-weight: normal;
+		speak: none;
+		display: inline-block;
+		text-decoration: inherit;
+		margin-right: 0;
+		margin-top: 17px;
+		text-align: center;
+		width: 55px;
+		font-size: 21px;
+	}
+	&:hover {
+		color: $white;
+		border-color: var(--icons-color);
+		background-color: var(--icons-color) !important;
+	}
+	&.tp-rightarrow:before {
+		margin-left: 1px;
+	}
+}
+.tp-leftarrow {
+	opacity: 0.6 !important;
+	filter: alpha(opacity=60);
+	&:hover {
+		filter: alpha(opacity=100);
+		opacity: 1 !important;
+	}
+	&:before {
+		content: '\e824';
+	}
+}
+.tp-rightarrow {
+	opacity: 0.6 !important;
+	filter: alpha(opacity=60);
+	&:hover {
+		filter: alpha(opacity=100);
+		opacity: 1 !important;
+	}
+	&:before {
+		content: '\e825';
+	}
+}
+#revvideo {
+	with: 100%;
+	height: 100%;
+}
+.custom-select {
+	background: none repeat scroll 0 0 $white !important;
+	border: 1px solid $color_gray_nurse_approx !important;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 0 1px $white inset, 1px 2px 0 $color_gray_nurse_approx !important;
+	outline: medium none;
+	position: relative;
+}
+#video {
+	border: 1px solid $white;
+}
+#soundcloud {
+	border: 1px solid $white;
+	width: 100%;
+}
+.contact_form {
+	overflow: hidden;
+	margin: 50px 0 25px;
+	textarea {
+		height: 133px !important;
+	}
+	.form-control {
+		margin-bottom: 10px;
+		height: 62px;
+		border-color: $color_alto_approx;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+	}
+}
+#contactform {
+	fieldset {
+		padding: 10px;
+		border: 1px solid $color_gallery_approx;
+	}
+	legend {
+		padding: 7px 10px;
+		font-weight: bold;
+		color: $black;
+		border: 1px solid $color_gallery_approx;
+		margin-bottom: 0 !important;
+		margin-bottom: 20px;
+	}
+	span.required {
+		font-size: 13px;
+		color: $red;
+	}
+	#success_page h1 {
+		background: $url_7 left no-repeat;
+		padding-left: 22px;
+	}
+}
+#message {
+	margin: 10px 0;
+	padding: 0;
+}
+.error_message {
+	display: block;
+	height: 22px;
+	line-height: 22px;
+	background: $color_pippin_approx $url_6 no-repeat 10px center;
+	padding: 3px 10px 3px 35px;
+	color: $color_falu_red_approx;
+	border: 1px solid $color_your_pink_approx;
+}
+.loader {
+	padding: 0 10px;
+	width: 200px;
+	text-indent: -99999;
+	height: 200px;
+	font-size: 0;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background-image: $url_16;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: -100px 0 0 -100px;
+}
+acronym {
+	border-bottom: 1px dotted $color_celeste_approx;
+}
+#map {
+	height: 450px;
+	width: 100%;
+	img {
+		max-width: inherit;
+	}
+}
+.map {
+	position: relative;
+	.row {
+		position: relative;
+		.col-lg-4 {
+			float: right;
+			margin-top: -450px;
+			z-index: 9;
+		}
+	}
+	.searchmodule {
+		padding: 18px 10px;
+	}
+}
+.contact-icon {
+	margin: 20px 0;
+	overflow: hidden;
+}
+.infobox {
+	display: inline-block;
+	padding: 5px;
+	position: relative;
+	width: 270px;
+	img {
+		width: 100% !important;
+		width: 80px !important;
+		padding-right: 10px;
+	}
+	.title {
+		font-size: 13px;
+		font-weight: bold;
+		margin-top: 0;
+		margin-bottom: 0;
+		text-transform: uppercase;
+		padding-bottom: 5px;
+		a {
+			font-weight: bold;
+		}
+	}
+}
+.pricing_detail {
+	border: 1px solid $color_mercury_approx;
+	padding: 30px 20px;
+	text-align: center;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .2s linear, color .2s linear;
+	&:hover {
+		background-color: var(--header-style-1-color);
+		h3 {
+			color: $white;
+		}
+		header {
+			border-color: $color_gallery_approx;
+		}
+		.btn {
+			color: $white !important;
+			background: $color_log_cabin_approx !important;
+		}
+		.priceamount {
+			background-color: var(--header-style-1-color);
+		}
+		ul li {
+			color: $white;
+		}
+	}
+	header {
+		border-bottom: 1px solid $color_mercury_approx;
+		h3 {
+			font-size: 30px;
+			margin-top: 35px;
+			padding: 0;
+			display: block;
+			overflow: hidden;
+		}
+	}
+	.priceamount {
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 500px;
+		color: $white;
+		background: $color_log_cabin_approx;
+		display: block;
+		border: 10px solid $white;
+		font-size: 16px;
+		height: 120px;
+		margin: 0 auto;
+		text-align: center;
+		width: 120px;
+		position: absolute;
+		top: -70px;
+		left: 0;
+		right: 0;
+		padding-top: 23px;
+		line-height: 1.6;
+	}
+}
+.pricing_info {
+	display: block;
+	ul {
+		padding-left: 0;
+		li {
+			list-style: none;
+			padding: 15px 0;
+		}
+	}
+}
+.pricing_boxes {
+	padding: 80px 0;
+	display: block;
+	overflow: hidden;
+	position: relative;
+}
+.long-twitter {
+	color: $white;
+	i {
+		font-size: 31px;
+	}
+	a {
+		text-decoration: underline;
+		color: $white;
+	}
+}
+.tab-content {
+	border-left: 1px solid $gallery;
+	border-bottom: 1px solid $gallery;
+	border-right: 1px solid $gallery;
+}
+.nav-stacked {
+	li {
+		border-top: 0 solid $gallery !important;
+		border-left: 0 solid $gallery !important;
+		border-bottom: 1px solid $gallery !important;
+		border-right: 0 solid $gallery !important;
+		&:last-child {
+			border-bottom: 0 solid $gallery !important;
+		}
+	}
+	> li > a {
+		color: $color_log_cabin_approx;
+		border: 0 solid $gallery !important;
+		&:hover {
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+		&:focus {
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+.panel-title {
+	padding: 0;
+	&:after {
+		content: "\f078";
+		color: $color_log_cabin_approx;
+		float: right;
+		display: block;
+		font-family: $font_4;
+		font-size: 15px;
+		pointer-events: none;
+		position: relative;
+		line-height: 20px;
+		text-transform: none;
+	}
+}
+.panel-body {
+	h4 {
+		font-size: 16px;
+		margin: 10px 0 20px;
+		padding: 0 !important;
+	}
+	.form-control {
+		margin-bottom: 0;
+	}
+}
+.panel-default {
+	border: 0 solid $white !important;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 $white;
+	background: none;
+	> .panel-heading {
+		background-color: $white;
+		padding: 15px 20px;
+		border: 1px solid $color_shady_lady_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 3px;
+		a {
+			color: $color_log_cabin_approx;
+			font-size: 18px;
+			width: 100%;
+			display: block;
+			&:hover {
+				background: none !important;
+				color: $color_log_cabin_approx !important;
+			}
+		}
+		&:hover {
+			border-color: var(--icons-color);
+		}
+	}
+}
+.stat {
+	text-align: center;
+}
+.highlight {
+	color: $white;
+	padding: 30px 0;
+	font-weight: bold;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 0;
+	font-size: 48px;
+}
+.milestone-details {
+	font-weight: bold;
+	font-size: 18px;
+	color: $white;
+}
+.dmtop {
+	background-color: $color_hunter_green_approx;
+	background-image: $url_8;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	z-index: 9999;
+	width: 40px;
+	height: 40px;
+	text-indent: -99999px;
+	position: fixed;
+	bottom: -100px;
+	right: 25px;
+	cursor: pointer;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all .7s ease-in-out;
+	overflow: auto;
+	background-color: var(--header-style-1-color);
+}
+.progress {
+	position: relative;
+	overflow: visible;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none;
+	border-bottom: 1px solid $color_celeste_approx;
+	background: none;
+	margin: 10px 0;
+	height: 10px;
+}
+.skill_count {
+	position: absolute;
+	right: 0;
+	font-weight: bold;
+	font-size: 16px;
+	color: $color_log_cabin_approx;
+	top: -9px;
+}
+.skills_bar {
+	margin: 10px 0;
+	overflow: hidden;
+	small {
+		font-size: 14px;
+		color: $color_log_cabin_approx;
+		margin: 10px 0;
+	}
+}
+#accordion-second {
+	.accordion-group {
+		margin-bottom: 10px;
+	}
+	.accordion-heading {
+		border-bottom: 0;
+		font-size: 16px;
+		background: $color_wild_sand_approx;
+		.accordion-toggle {
+			display: block;
+			cursor: pointer;
+			padding: 0 !important;
+			color: $color_log_cabin_approx;
+			background: $color_wild_sand_approx;
+			outline: none!important;
+			text-decoration: none;
+			&.active {
+				background: $color_wild_sand_approx;
+				em {
+					background-color: var(--header-style-1-color);
+				}
+			}
+			> em {
+				background-color: $color_log_cabin_approx;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 0;
+				color: $white;
+				font-size: 14px;
+				height: 37px;
+				line-height: 40px;
+				margin-right: 10px;
+				text-align: center;
+				width: 40px;
+			}
+		}
+	}
+	.accordion-inner {
+		padding: 9px 10px;
+		background: $color_wild_sand_approx;
+	}
+	.accordion-toggle:hover {
+		background: $color_wild_sand_approx;
+	}
+}
+#accordion-first {
+	.accordion-group {
+		margin-bottom: 10px;
+	}
+	.accordion-heading {
+		border-bottom: 0;
+		font-size: 16px;
+		background: none;
+		.accordion-toggle {
+			display: block;
+			cursor: pointer;
+			padding: 5px 0 !important;
+			color: $color_log_cabin_approx;
+			outline: none!important;
+			text-decoration: none;
+			&.active {
+				background: none;
+				em {
+					background-color: var(--header-style-1-color);
+				}
+			}
+			> em {
+				background-color: $color_log_cabin_approx;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 100px;
+				color: $white;
+				font-size: 14px;
+				height: 32px;
+				line-height: 32px;
+				margin-right: 10px;
+				text-align: center;
+				width: 32px;
+			}
+		}
+	}
+	.accordion-inner {
+		padding: 9px 10px;
+	}
+	.accordion-toggle:hover {
+		background: none;
+	}
+}
+.check {
+	margin-left: 0;
+	padding-left: 0;
+	li {
+		font-size: 13px;
+		list-style: none;
+		margin-bottom: 4px;
+		&:before {
+			content: "\f00c";
+			font-family: $font_4;
+			font-size: 16px;
+			left: 0;
+			padding-right: 5px;
+			position: relative;
+			top: 2px;
+			color: var(--icons-color);
+		}
+		a {
+			color: $color_storm_dust_approx;
+		}
+	}
+}
+#services {
+	.item {
+		padding: 15px;
+	}
+	.owl-controls .owl-page span {
+		background-color: var(--header-style-1-color);
+	}
+}
+.item {
+	h3 {
+		padding-top: 15px;
+		padding-bottom: 0;
+	}
+	.icon-container {
+		font-size: 24px;
+		float: left;
+		margin: 0 20px 0 0;
+		border-color: var(--icons-color);
+		color: var(--icons-color);
+	}
+	&:hover .icon-container {
+		background-color: var(--header-style-1-color);
+		color: $white !important;
+	}
+}
+.servicesbox_content {
+	display: block !important;
+	width: 100% !important;
+	padding: 2px;
+	p {
+		display: inline-block;
+		margin-top: 10px;
+	}
+}
+.services_lists_boxes {
+	margin: 20px 0;
+	display: block;
+	color: $white;
+	position: relative;
+	overflow: hidden;
+	.service-icon-circle {
+		text-align: center;
+	}
+	h4 {
+		color: $white;
+		font-size: 21px;
+		padding-bottom: 0;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+}
+.custom-services {
+	position: relative !important;
+	padding: 0;
+	margin: 20px 0;
+	display: block;
+	overflow: visible;
+}
+.ch-item {
+	position: relative !important;
+	padding: 0;
+	margin: 20px 0;
+	height: 200px;
+	display: block;
+	overflow: visible;
+	&:hover .ch-info {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate3d(0,1,0,-180deg);
+	}
+}
+.ch-info-wrap {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	//Instead of the line below you could use @include perspective($p)
+	perspective: 800px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all 0.4s ease-in-out;
+	background: $white;
+}
+.ch-info-back {
+	padding: 15px;
+	text-align: center;
+	h3 {
+		font-size: 20px;
+		margin-bottom: 0;
+		padding-bottom: 0;
+		color: $white;
+		font-weight: bold;
+	}
+	p {
+		color: $white;
+	}
+}
+.ch-info-front {
+	padding-top: 40px;
+	text-align: center;
+	h3 {
+		font-size: 20px;
+		color: $color_log_cabin_approx;
+		font-weight: bold;
+	}
+	i {
+		color: var(--icons-color);
+	}
+}
+.ch-info {
+	position: absolute;
+	width: 100%;
+	height: 200px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: all 0.4s ease-in-out;
+	//Instead of the line below you could use @include transform-style($style)
+	transform-style: preserve-3d;
+	.ch-info-back {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate3d(0,1,0,180deg);
+		background-color: var(--header-style-1-color);
+	}
+	> div {
+		display: block;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-position: center center;
+		//Instead of the line below you could use @include backface-visibility($visibility)
+		backface-visibility: hidden;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 10px;
+	}
+}
+.service-with-image {
+	overflow: hidden;
+	margin: 20px 0;
+	.entry {
+		position: relative;
+	}
+	&:hover .service-title {
+		background-color: var(--header-style-1-color);
+		a {
+			color: $white !important;
+		}
+	}
+}
+.service-desc {
+	padding: 20px 0;
+}
+.service-title {
+	background: $white;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	max-width: 120px;
+	margin: auto;
+	text-align: center;
+	padding: 4px;
+	a {
+		font-weight: bold;
+		text-transform: uppercase;
+		i {
+			padding-right: 5px;
+		}
+	}
+}
+.service_vertical_box {
+	overflow: hidden;
+	display: block;
+	margin-bottom: 20px;
+	.service-icon {
+		float: left;
+		clear: both;
+		display: block;
+		height: 60px;
+		margin: 35px 20px;
+		width: 60px;
+	}
+	a.readmore {
+		padding-left: 98px;
+	}
+	&:hover .service-icon i {
+		color: var(--icons-color);
+	}
+}
+.services_vertical {
+	overflow: hidden;
+	padding: 30px 0;
+	p {
+		padding: 0 !important;
+		text-align: left;
+	}
+	h3 {
+		padding: 0 !important;
+		font-size: 18px;
+	}
+	.icon-container {
+		float: left;
+		border-color: var(--icons-color);
+		background-color: var(--header-style-1-color);
+	}
+	.general-title h2 {
+		padding: 0 !important;
+		color: $white !important;
+		text-align: left;
+		font-size: 30px !important;
+	}
+}
+.icon-container {
+	border: 1px solid $white;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 100px;
+	clear: both;
+	color: $white;
+	display: block;
+	font-size: 21px;
+	height: 55px;
+	line-height: 55px;
+	margin: 38px 20px;
+	text-align: center;
+	width: 55px;
+}
+.servicebox {
+	margin: 20px 0;
+	h3 {
+		padding: 0;
+	}
+	&:hover {
+		.make-bg {
+			background: $color_log_cabin_approx !important;
+			border-color: $color_log_cabin_approx !important;
+		}
+		.border-none {
+			border-bottom-color: $white;
+		}
+		.service-icon-circle {
+			background-color: var(--header-style-1-color);
+			i {
+				color: $white !important;
+			}
+		}
+		.service-icon i {
+			color: var(--icons-color);
+		}
+	}
+}
+.border-none {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0 !important;
+}
+.border-radius {
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 500px !important;
+}
+.little-padding {
+	padding: 5px 0 0 !important;
+	overflow: hidden;
+}
+.make-bg {
+	line-height: 113px !important;
+	background-color: var(--header-style-1-color);
+	i {
+		font-size: 2.6em !important;
+		color: $white !important;
+	}
+}
+.service-icon-circle {
+	overflow: hidden;
+	margin: 20px auto;
+	display: block;
+	position: relative;
+	border: 1px solid $color_log_cabin_approx;
+	height: 100px;
+	width: 100px;
+	line-height: 107px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 0 100px 100px;
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: background-color .2s linear, color .2s linear;
+	border-color: var(--icons-color);
+	i {
+		font-size: 24px;
+		color: var(--icons-color);
+	}
+	&.active {
+		background-color: var(--header-style-1-color);
+		i {
+			color: $white !important;
+		}
+	}
+}
+.sr-only {
+	display: block !important;
+	overflow: visible;
+	visibility: visible;
+}
+.btn-dark {
+	background-color: $color_log_cabin_approx;
+	color: $white;
+	border: none;
+	&:hover {
+		color: $white;
+		border: none;
+	}
+	&:focus {
+		color: $white;
+		border: none;
+	}
+	&:active {
+		color: $white;
+		border: none;
+	}
+	&.active {
+		color: $white;
+		border: none;
+	}
+}
+.btn-lg {
+	padding: 10px 30px;
+	font-size: 16px;
+}
+.btn-primary {
+	color: $white;
+	border: none;
+	background-color: var(--header-style-1-color);
+	&:hover {
+		color: $white;
+		background-color: $color_log_cabin_approx;
+	}
+	&:focus {
+		color: $white;
+		background-color: $color_log_cabin_approx;
+	}
+	&:active {
+		color: $white;
+		background-color: $color_log_cabin_approx;
+	}
+	&.active {
+		color: $white;
+		background-color: $color_log_cabin_approx;
+	}
+}
+.arrow-up {
+	border-bottom: 5px solid $white;
+	border-left: 5px solid rgba(0, 0, 0, 0);
+	border-right: 5px solid rgba(0, 0, 0, 0);
+	bottom: -1px;
+	height: 0;
+	left: 0;
+	margin: auto;
+	position: absolute;
+	right: 0;
+	width: 0;
+}
+.doc {
+	.blog-carousel {
+		padding: 15px !important;
+	}
+	.highlight {
+		margin-top: 10px;
+		font-size: 72px !important;
+		font-weight: normal;
+		color: $color_log_cabin_approx;
+		font-family: $font_1, $font_8;
+	}
+	.green {
+		color: $color_sushi_approx !important;
+	}
+	.red {
+		color: $color_red_orange_approx !important;
+	}
+	.yellow {
+		color: var(--icons-color) !important;
+	}
+	.milestone-details {
+		font-size: 21px !important;
+		font-weight: 100;
+		color: $color_log_cabin_approx;
+		font-family: $font_1, $font_8;
+		text-transform: uppercase;
+		padding: 20px;
+	}
+	li a {
+		color: $color_log_cabin_approx !important;
+	}
+	.flexslider a {
+		color: $white !important;
+	}
+}
+.tabbed-menu {
+	ul {
+		list-style: none;
+		list-style-position: outside;
+		display: inline;
+		margin: 10px 0;
+	}
+	li {
+		line-height: 12px;
+		float: left;
+		padding: 10px 7px;
+		a {
+			color: $color_log_cabin_approx;
+			&:hover {
+				color: var(--icons-color);
+			}
+		}
+	}
+}
+.calloutbox-full-mini {
+	padding: 20px 0;
+	text-align: center;
+	background-color: var(--header-style-1-color);
+	.lead {
+		color: $white;
+		margin: 10px 0 20px;
+	}
+	h2 {
+		font-size: 36px;
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+		color: $white;
+	}
+}
+.calloutbox-full {
+	padding: 60px 0;
+	text-align: center;
+	.lead {
+		color: $white;
+		margin: 10px 0 20px;
+	}
+	h2 {
+		font-size: 36px;
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+		color: $white;
+	}
+}
+.calloutbox {
+	position: relative;
+	margin: 20px 0;
+	color: $white;
+	padding: 30px 20px 20px;
+	overflow: hidden;
+	background-color: var(--header-style-1-color);
+	.form-control {
+		height: 35px;
+	}
+	h2 {
+		font-size: 28px;
+		padding: 0;
+		margin: 0;
+		text-transform: uppercase;
+		color: $white;
+	}
+	.btn-dark:hover {
+		background: $color_log_cabin_approx;
+	}
+}
+#bilding {
+	label {
+		margin: 10px 0 0;
+	}
+	.form-control {
+		margin: 10px 0 0;
+	}
+}
+#payment {
+	label {
+		border: 1px solid $color_gallery_approx;
+		padding: 15px 40px !important;
+	}
+	p.small {
+		font-weight: 100;
+	}
+}
+.bggrey {
+	color: $color_log_cabin_approx !important;
+	background: $color_wild_sand_approx !important;
+	border-left: 8px solid $white;
+	border-color: var(--icons-color);
+	h2 {
+		color: $color_log_cabin_approx !important;
+		font-weight: bold;
+	}
+}
+.bgdark {
+	background: $color_log_cabin_approx !important;
+	span {
+		color: var(--icons-color);
+	}
+}
+.client-wrap {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-color: $color_gravel_approx;
+	border-right-style: solid;
+	border-right-width: 1px;
+	padding: 30px;
+	&.last {
+		border-right-width: 0;
+	}
+	&.no-border {
+		border-bottom-width: 0;
+	}
+}
+#comments {
+	padding: 20px;
+}
+.comment-list {
+	margin: 60px 0;
+	list-style: none;
+	ul li {
+		list-style: none;
+	}
+	ol li {
+		list-style: none;
+	}
+}
+.comment-avatar {
+	margin: 0 20px 0 0;
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+.comment-content {
+	background: $white;
+	border: 1px solid $gallery;
+	margin-bottom: 20px;
+	overflow: hidden;
+	padding: 20px;
+}
+.comment-reply {
+	margin: -10px -5px 0 0;
+	float: right;
+	font-size: 12px;
+	color: $white;
+	a {
+		color: $white !important;
+	}
+}
+.comment-author {
+	margin-bottom: 10px;
+}
+.comment-meta {
+	font-size: 12px;
+	color: $color_silver_chalice_approx;
+	padding-left: 10px;
+}
+.authorbox_wrapper {
+	padding: 20px;
+	border-bottom: 1px solid $gallery;
+	margin-bottom: 50px;
+	img {
+		margin: 0 20px 20px 0;
+		width: 100px !important;
+	}
+	h4 {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+	p {
+		padding-top: 5px;
+		margin-top: 5px;
+	}
+}
+.blog_button {
+	background: $white;
+	border: 1px solid $color_celeste_approx;
+	color: $color_celeste_approx;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 1.42857;
+	margin-bottom: 30px;
+	padding: 10px 23px;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	border-color: var(--icons-color);
+	color: var(--icons-color);
+}
+.timeline {
+	list-style: none;
+	padding: 20px 0;
+	position: relative;
+	&:before {
+		top: 0;
+		bottom: 0;
+		position: absolute;
+		content: " ";
+		width: 1px;
+		background-color: $color_celeste_approx;
+		left: 50%;
+		margin-left: -1.5px;
+	}
+	> li {
+		margin-bottom: 20px;
+		position: relative;
+		&:before {
+			content: " ";
+			display: table;
+		}
+		&:after {
+			content: " ";
+			display: table;
+			clear: both;
+		}
+		> {
+			.timeline-panel {
+				width: 46%;
+				float: left;
+				border: 1px solid $color_celeste_approx;
+				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+				border-radius: 2px;
+				padding: 20px;
+				position: relative;
+				&:before {
+					position: absolute;
+					top: 26px;
+					right: -15px;
+					display: inline-block;
+					border-top: 15px solid transparent;
+					border-left: 15px solid $color_celeste_approx;
+					border-right: 0 solid $color_celeste_approx;
+					border-bottom: 15px solid transparent;
+					content: " ";
+				}
+				&:after {
+					position: absolute;
+					top: 27px;
+					right: -14px;
+					display: inline-block;
+					border-top: 14px solid transparent;
+					border-left: 14px solid $white;
+					border-right: 0 solid $white;
+					border-bottom: 14px solid transparent;
+					content: " ";
+				}
+			}
+			.timeline-badge {
+				color: $white;
+				width: 50px;
+				height: 50px;
+				line-height: 50px;
+				font-size: 1.4em;
+				text-align: center;
+				position: absolute;
+				top: 16px;
+				left: 50%;
+				margin-left: -25px;
+				background-color: $color_mountain_mist_approx;
+				z-index: 100;
+				//Instead of the line below you could use @include border-top-right-radius($radius)
+				border-top-right-radius: 50%;
+				//Instead of the line below you could use @include border-top-left-radius($radius)
+				border-top-left-radius: 50%;
+				//Instead of the line below you could use @include border-bottom-right-radius($radius)
+				border-bottom-right-radius: 50%;
+				//Instead of the line below you could use @include border-bottom-left-radius($radius)
+				border-bottom-left-radius: 50%;
+			}
+		}
+		&.timeline-inverted > .timeline-panel {
+			float: right;
+			&:before {
+				border-left-width: 0;
+				border-right-width: 15px;
+				left: -15px;
+				right: auto;
+			}
+			&:after {
+				border-left-width: 0;
+				border-right-width: 14px;
+				left: -14px;
+				right: auto;
+			}
+		}
+	}
+}
+.timeline-title {
+	margin-top: 0;
+	color: inherit;
+}
+.post-wrapper-top {
+	background: $color_wild_sand_approx;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 0;
+	border-bottom: 3px solid $gallery;
+	margin-bottom: 0;
+	padding: 0;
+	position: relative;
+	text-align: left;
+	h2 {
+		border-bottom: 3px solid $white;
+		display: inline-block;
+		font-size: 24px;
+		padding: 30px 0;
+		color: $color_log_cabin_approx;
+		position: relative;
+		margin-bottom: -3px;
+		border-color: var(--icons-color);
+	}
+}
+.breadcrumb {
+	bottom: 0;
+	color: $color_tapa_approx;
+	background: transparent;
+	font-size: 14px;
+	font-weight: 400;
+	list-style: none outside none;
+	padding: 10px 0;
+	position: absolute;
+	right: 0;
+	> li + li:before {
+		font-size: 13px;
+		content: "";
+		background: $url_9 no-repeat center center;
+		margin: 0 10px;
+		padding: 0 10px;
+	}
+}
+.quote-post {
+	background: $color_wild_sand_approx;
+	position: relative;
+	padding: 20px 10px 10px;
+	&:after {
+		font-family: $font_4;
+		content: "\f10e";
+		padding-right: 20px;
+		right: 0;
+		position: absolute;
+		top: 50px;
+		color: $black;
+		font-size: 600%;
+		opacity: 0.1;
+		filter: alpha(opacity=10);
+	}
+	blockquote {
+		border-left: 0 solid $white;
+	}
+}
+.bubble-bottom {
+	display: inline-block;
+	position: relative;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: translateZ(0);
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	&:before {
+		pointer-events: none;
+		position: absolute;
+		z-index: -1;
+		content: '';
+		border-style: solid;
+		//Instead of the line below you could use @include transition-duration($duration-1, $duration-2, $duration-3, $duration-4, $duration-5, $duration-6, $duration-7, $duration-8, $duration-9, $duration-10)
+		transition-duration: 0.3s;
+		//Instead of the line below you could use @include transition-property($property-1, $property-2, $property-3, $property-4, $property-5, $property-6, $property-7, $property-8, $property-9, $property-10)
+		transition-property: bottom;
+		left: calc(50% - 10px);
+		bottom: 0;
+		border-width: 10px 10px 0 10px;
+		border-color: $color_bon_jour_approx transparent transparent transparent;
+	}
+	&:hover:before {
+		bottom: -10px;
+	}
+	&:focus:before {
+		bottom: -10px;
+	}
+	&:active:before {
+		bottom: -10px;
+	}
+}
+.rotating {
+	display: inline-block;
+	//Instead of the line below you could use @include transform-style($style)
+	transform-style: preserve-3d;
+	//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+	transform: rotateX(0) rotateY(0) rotateZ(0);
+	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+	transition: 0.5s;
+	&.flip {
+		position: relative;
+		.front {
+			z-index: 1;
+		}
+		.back {
+			z-index: 2;
+			display: block;
+			opacity: 1;
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: rotateY(180deg) translate3d(0,0,0);
+		}
+		&.cube {
+			.front {
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: translate3d(0,0,100px) scale(0.85,0.85);
+			}
+			.back {
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: rotateY(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+			}
+			&.up .back {
+				//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+				transform: rotateX(180deg) translate3d(0,0,100px) scale(0.85,0.85);
+			}
+		}
+		&.up .back {
+			//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+			transform: rotateX(180deg) translate3d(0,0,0);
+		}
+	}
+	.front {
+		left: 0;
+		top: 0;
+		//Instead of the line below you could use @include backface-visibility($visibility)
+		backface-visibility: hidden;
+		position: absolute;
+		display: inline-block;
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: translate3d(0,0,1px);
+	}
+	.back {
+		left: 0;
+		top: 0;
+		//Instead of the line below you could use @include backface-visibility($visibility)
+		backface-visibility: hidden;
+		display: block;
+		opacity: 0;
+	}
+	&.spin {
+		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+		transform: rotate(360deg) scale(0);
+	}
+}
+@media(max-width: 767px) {
+	.footer-menu {
+		display: none !important;
+	}
+	.slider_title_a {
+		display: none !important;
+	}
+	.header_center {
+		.navbar-nav {
+			display: inherit !important;
+			float: inherit !important;
+			margin: 0;
+		}
+		.navbar-collapse.collapse {
+			text-align: left;
+			height: auto !important;
+			overflow: auto !important;
+		}
+	}
+	.btn-lg {
+		font-size: 11px !important;
+	}
+	.mini_title2 {
+		font-size: 11px !important;
+	}
+	#topbar {
+		.topbar-email {
+			border: none;
+			float: none !important;
+			clear: both !important;
+			text-align: center !important;
+			margin: auto;
+		}
+		.topbar-phone {
+			border: none;
+			float: none !important;
+			clear: both !important;
+			text-align: center !important;
+			margin: auto;
+		}
+		.topbar-login {
+			border: none;
+			float: none !important;
+			clear: both !important;
+			text-align: center !important;
+			margin: auto;
+		}
+		.topbar-cart {
+			border: none;
+			float: none !important;
+			clear: both !important;
+			text-align: center !important;
+			margin: auto;
+		}
+	}
+	.topmenu {
+		border: none;
+		float: none !important;
+		clear: both !important;
+		text-align: center !important;
+		margin: auto;
+	}
+	.copyright-text {
+		border: none;
+		float: none !important;
+		clear: both !important;
+		text-align: center !important;
+		margin: auto;
+	}
+	.menu {
+		border: none;
+		float: none !important;
+		clear: both !important;
+		text-align: center !important;
+		margin: auto;
+	}
+	.callus {
+		border: none;
+		float: none !important;
+		clear: both !important;
+		text-align: center !important;
+		margin: auto;
+	}
+	.portfolio-filter li a {
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 2px;
+		margin: -3px;
+		padding: 5px !important;
+	}
+	.tp-caption .btn {
+		display: none !important;
+	}
+	ul.timeline {
+		&:before {
+			left: 40px;
+		}
+		> li > {
+			.timeline-panel {
+				width: calc(100% - 90px);
+				float: right;
+				&:before {
+					border-left-width: 0;
+					border-right-width: 15px;
+					left: -15px;
+					right: auto;
+				}
+				&:after {
+					border-left-width: 0;
+					border-right-width: 14px;
+					left: -14px;
+					right: auto;
+				}
+			}
+			.timeline-badge {
+				left: 15px;
+				margin-left: 0;
+				top: 16px;
+			}
+		}
+	}
+}
+@media(max-width: 380px) {
+	#topbar {
+		.topbar-email {
+			display: block;
+		}
+		.topbar-phone {
+			display: block;
+		}
+		.topbar-login {
+			display: block;
+		}
+		.topbar-cart {
+			display: block;
+		}
+	}
+	.topmenu {
+		display: block;
+	}
+	.callus {
+		display: block;
+	}
+}
+blockquote {
+	border-color: var(--icons-color);
+}
+.progress-bar {
+	background-color: var(--header-style-1-color);
+}
+.make-bg-full {
+	background-color: var(--header-style-1-color);
+}
+@font-face {
+	font-family: $font_0;
+	src: $url_10;
+	src: $url_11 format('embedded-opentype'), $url_12 format('woff'), $url_13 format('truetype'), $url_14 format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+#maintenance1 {
+	.overlay {
+		background-color: $white_100;
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		padding: 60px 0;
+		position: absolute;
+		right: 0;
+	}
+	.title {
+		margin: 60px 0;
+		h1 {
+			font-size: 90px;
+			line-height: 90px;
+			font-weight: 400;
+			font-family: $font_0, $font_8;
+			color: $color_log_cabin_approx;
+			text-decoration: none;
+			padding: 20px 0 0;
+			border-width: 0;
+			border-style: none;
+		}
+		.lead {
+			font-size: 18px !important;
+			font-weight: 100;
+			color: $color_log_cabin_approx !important;
+			font-family: $font_1, $font_8;
+			padding: 20px;
+		}
+	}
+	.highlight {
+		margin-top: 10px;
+		font-size: 72px !important;
+		font-weight: normal;
+		color: $color_log_cabin_approx;
+		font-family: $font_1, $font_8;
+	}
+	.green {
+		color: $color_sushi_approx !important;
+	}
+	.red {
+		color: $color_red_orange_approx !important;
+	}
+	.yellow {
+		color: var(--icons-color) !important;
+	}
+	.milestone-details {
+		font-size: 36px !important;
+		font-weight: 100;
+		color: $color_log_cabin_approx;
+		font-family: $font_1, $font_8;
+		text-transform: uppercase;
+		padding: 20px;
+	}
+	.subscribe .lead {
+		font-size: 18px !important;
+		font-weight: 100;
+		color: $color_log_cabin_approx !important;
+		font-family: $font_1, $font_8;
+		padding: 20px;
+	}
+}
+#maintenance {
+	background: $url_15 no-repeat center center fixed;
+	background-size: cover;
+	.overlay {
+		background-color: $black_10;
+		bottom: 0;
+		height: 100%;
+		left: 0;
+		padding: 60px 0;
+		position: absolute;
+		right: 0;
+	}
+	.title {
+		margin: 60px 0;
+		h1 {
+			font-size: 90px;
+			line-height: 90px;
+			font-weight: 400;
+			font-family: $font_0, $font_8;
+			color: $white;
+			text-decoration: none;
+			padding: 20px 0 0;
+			border-width: 0;
+			border-style: none;
+		}
+		.lead {
+			font-size: 18px !important;
+			font-weight: 100;
+			font-family: $font_1, $font_8;
+			padding: 20px;
+		}
+	}
+	.highlight {
+		margin-top: 10px;
+		font-size: 72px !important;
+		font-weight: normal;
+		font-family: $font_1, $font_8;
+	}
+	.milestone-details {
+		font-size: 36px !important;
+		font-weight: 100;
+		font-family: $font_1, $font_8;
+		text-transform: uppercase;
+		padding: 20px;
+	}
+	.subscribe .lead {
+		font-size: 18px !important;
+		font-weight: 100;
+		font-family: $font_1, $font_8;
+		padding: 20px;
+	}
+}
+.animationload {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: $color_log_cabin_approx;
+	z-index: 999999;
+}
+.dropdown-menu {
+	font-size: 12px !important;
+	.divider {
+		height: 2px;
+		margin: 9px 0;
+		overflow: hidden;
+		background-color: $color_del_rio_73_approx;
+	}
+}
+#footer_top {
+	.block {
+		width: 244.1px;
+		display: inline-block;
+		vertical-align: top;
+		&.footer_top {
+			height: 260px;
+			overflow: hidden;
+			&:not(:last-child) {
+				border-right: 1px solid $white;
+			}
+		}
+		ul {
+			padding-left: 10px;
+		}
+	}
+	a {
+		color: $color_gallery_approx;
+	}
+}
+.header_top {
+	margin-left: 950px;
+	display: block;
+}
+#comment {
+	#show_attachment {
+		margin-top: 10px;
+	}
+	#subject ul li {
+		display: inline-block;
+		margin-right: 15px;
+	}
+}
+#existing_attachment_list {
+	width: 500px;
+	background-color: $color_indian_khaki_30_approx;
+	ul {
+		&.header {
+			background: $color_quill_gray_approx;
+			width: 500px;
+			margin-top: 5px;
+			padding: 2px 5px;
+		}
+		li {
+			margin-right: 50px;
+			display: inline-block;
+		}
+	}
+	.second_level.header li {
+		margin-right: 30px;
+	}
+}
+#form_line {
+	margin-top: 10px;
+	td {
+		select {
+			width: 100%;
+		}
+		input[type="text"] {
+			width: 100%;
+		}
+		input.medium {
+			width: 90px;
+			width: 90px;
+		}
+	}
+	.number {
+		width: 50px;
+	}
+	img {
+		vertical-align: unset !important;
+	}
+}
+#user {
+}
+.small_box {
+	background: none repeat scroll 0 0 $color_seashell_34_approx;
+	display: inline-block;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	width: 220px;
+	float: left;
+}
+.medium_box {
+	background: none repeat scroll 0 0 $color_seashell_34_approx;
+	display: inline-block;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	width: 290px;
+	li {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+}
+.large_box {
+	background: none repeat scroll 0 0 $color_seashell_34_approx;
+	display: inline-block;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	width: 600px;
+	text-align: center;
+}
+.extra_large_box {
+	background: none repeat scroll 0 0 $color_seashell_34_approx;
+	display: inline-block;
+	margin-right: 20px;
+	padding-bottom: 10px;
+	width: 950px;
+}
+#submit_search {
+	margin-bottom: 10px;
+}
+.ui-dialog {
+	padding: 30px 60px;
+	border: 2px solid $white;
+	font-size: 14px;
+	min-width: 600px;
+	margin-top: 200px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 50px 50px 50px 50px;
+	z-index: 1100;
+	background-color: $color_gray_nurse_95_approx;
+	.ui-button {
+		margin-top: 10px;
+		float: center;
+		margin-left: 200px;
+	}
+}
+span {
+	&.ui-button-text {
+		float: right;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	&.more_page {
+		font-size: 0.7em;
+		float: right;
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+	&.heading {
+		font-weight: bold;
+		padding: 3px 10px;
+		display: inline-block;
+		width: 100%;
+	}
+}
+.ui-widget-overlay {
+	background: $gray;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+}
+.ui-dialog-titlebar {
+	background: none repeat scroll 0 0 $color_sushi_71_approx;
+	text-align: center;
+	margin: 8px 0;
+	color: $white;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 4px;
+}
+#page {
+	#show_attachment {
+		@extend %extend_4;
+		padding: 15px;
+		margin-top: 30px;
+	}
+	#page_element {
+		@extend %extend_4;
+	}
+}
+#content_header {
+	#content_element {
+		@extend %extend_4;
+	}
+	#show_attachment {
+		clear: both;
+		display: block;
+		width: 670px;
+		margin: 10px 5px;
+		float: left;
+		text-align: left;
+		padding: 5px 15px;
+	}
+	show_attachment {
+		padding: 15px;
+		margin-top: 30px;
+	}
+}
+#pages {
+	clear: both;
+	display: block;
+	margin: 10px 5px;
+	float: left;
+	text-align: left;
+	padding: 5px 15px;
+	#form_header {
+		padding: 5px 10px;
+	}
+}
+.show_loading_small {
+	display: inline-block;
+	z-index: 99;
+}
+.opacity_2 {
+	opacity: 0.2;
+}
+.add_new_line {
+	cursor: pointer;
+	border: none;
+	width: 15px;
+	height: 15px;
+	background: $url_17 no-repeat left top;
+}
+.find_popup {
+	cursor: pointer;
+	border: none;
+	width: 15px;
+	height: 15px;
+	background: $url_18 no-repeat left top;
+}
+.bold {
+	font-weight: bold;
+}
+.blue {
+	color: $blue;
+	background: $color_conifer_approx;
+}
+.showPointer {
+	cursor: pointer;
+}
+.topBottomBG {
+	background: $color_concord_approx;
+	background: linear-gradient(to bottom, $color_concord_approx 0,$color_woodsmoke_approx 100%);
+}
+.date {
+	display: inline-block;
+	height: 20px;
+	width: 90px;
+}
+.dateFromToday {
+	width: 90px;
+}
+.anyDate {
+	width: 90px;
+}
+.search_data {
+	background: $url_18 no-repeat right top;
+	background-size: 12px;
+	cursor: pointer;
+	cursor: hand;
+}
+#access_denied {
+	min-height: 100%;
+}
+#form_top_ul {
+	padding: 5px 10px;
+	border: 2px solid $color_celeste_approx;
+}
+#js_data {
+	display: none;
+}
+.simple_box {
+	display: block;
+	border: 2px solid $color_moody_blue_50_approx;
+	background: $color_moody_blue_10_approx;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 10px;
+	text-align: center;
+	margin: 10px;
+}
+input {
+	&.medium {
+		width: 100px;
+	}
+	&.small {
+		width: 40px;
+	}
+}
+table {
+	border-collapse: collapse;
+	vertical-align: top;
+	color: $color_mine_shaft_approx;
+	&.document_table {
+		td {
+			padding: 5px 10px;
+		}
+		input {
+			width: 200px;
+		}
+	}
+	th {
+		border-width: 1px;
+		padding: 4px;
+		border-style: solid;
+		border-color: $color_tiara_92_approx;
+		font-size: 10px;
+		background-color: $concrete;
+	}
+	tr {
+		background-color: $color_romance_36_approx;
+	}
+	td {
+		border-width: 1px;
+		border-style: solid;
+		border-color: $color_tiara_92_approx;
+	}
+	&.normal {
+		border-width: 1px;
+		border-color: $color_mountain_mist_approx;
+		border-collapse: collapse;
+		float: left;
+		width: 100%;
+		tr {
+		}
+		td {
+			padding: 2px 4px 2px 5px;
+		}
+	}
+	&.form {
+		border-width: 1px;
+		border-color: $color_mountain_mist_approx;
+		border-collapse: collapse;
+		float: left;
+		th {
+		}
+		tr {
+		}
+		td {
+			padding: 4px 2px;
+		}
+		.detail {
+			th {
+				background-color: $color_gallery_approx;
+			}
+			tr {
+				background: $color_quill_gray_approx;
+			}
+		}
+	}
+	&.show-address {
+		display: block;
+		width: 915px;
+		margin-right: 100px;
+		float: left;
+		border: 1px solid $color_black_haze_approx;
+		td {
+			margin-right: 50px;
+			display: inline-block;
+			width: 200px;
+		}
+	}
+	&.form_table {
+		display: block;
+		color: $color_mine_shaft_approx;
+		background-color: $black_8;
+		border-width: 1px;
+		border-color: $color_mountain_mist_approx;
+		border-collapse: collapse;
+		clear: both;
+		th {
+			border-width: 1px;
+			border-style: solid;
+			border-color: $color_chicago_20_approx;
+		}
+		td {
+			border-color: $color_celeste_approx;
+			border-width: 1px;
+			padding: 4px;
+			border-style: solid;
+			border-color: $color_timberwolf_approx;
+		}
+		tr {
+			&:nth-child(odd) {
+				background-color: $color_celeste_10_approx;
+			}
+			&:nth-child(even) {
+				background-color: $color_pine_glade_40_approx;
+			}
+		}
+	}
+}
+.required {
+	background: none repeat scroll 0 0 $color_snuff_61_approx;
+	border: 1px solid $color_twilight_61_approx;
+}
+.readonly {
+	background: none repeat scroll 0 0 $color_wheatfield_approx;
+	border: 1px solid $color_heathered_gray_37_approx;
+}
+#form_header {
+	input {
+		width: 140px;
+		&.date {
+			width: 140px;
+		}
+		&.seq_number {
+			width: 40px;
+		}
+		&.small {
+			width: 40px;
+		}
+		&.detail_seq_number {
+			width: 40px;
+		}
+	}
+	select {
+		width: 140px;
+	}
+}
+#erp_form_area {
+	input {
+		&.seq_number {
+			width: 40px;
+		}
+		&.small {
+			width: 40px;
+		}
+		&.detail_seq_number {
+			width: 40px;
+		}
+		&.medium {
+			width: 90px;
+		}
+		&.large {
+			width: 140px;
+		}
+		&.xlarge {
+			width: 180px !important;
+		}
+		&.xxlarge {
+			width: 220px !important;
+		}
+	}
+	input[type=text] {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	input[type=password] {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	input[type=date] {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	input[type=textarea] {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	input[type=number] {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	input[type=search] {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	checkbox {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+	li {
+		input[type=text] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+		input[type=date] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+		input[type=textarea] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+		input[type=number] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+	}
+	select {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 3px;
+	}
+	.select {
+		&.medium {
+			width: 10em;
+		}
+		&.small {
+			width: 5em;
+		}
+		&.large {
+			width: 20em;
+		}
+	}
+	radio button {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+	}
+}
+#form-modal {
+	input {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+		&.seq_number {
+			width: 40px;
+		}
+		&.small {
+			width: 40px;
+		}
+		&.detail_seq_number {
+			width: 40px;
+		}
+		&.date {
+			width: 90px;
+		}
+		&.medium {
+			width: 90px;
+		}
+		&.large {
+			width: 140px;
+		}
+		&.xlarge {
+			width: 180px !important;
+		}
+		&.xxlarge {
+			width: 220px !important;
+		}
+	}
+	li {
+		input[type=text] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+		input[type=date] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+		input[type=textarea] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+		input[type=number] {
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 3px;
+		}
+	}
+	select {
+		height: 24px;
+		border: 1px solid $color_gray_nurse_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 3px;
+	}
+	.select {
+		&.medium {
+			width: 10em;
+		}
+		&.small {
+			width: 5em;
+		}
+		&.large {
+			width: 20em;
+		}
+	}
+}
+select {
+	text-indent: 0.01px;
+	text-overflow: '';
+}
+.sub-header {
+	padding-bottom: 10px;
+	border-bottom: 1px solid $color_gallery_approx;
+}
+.sidebar {
+	display: none;
+}
+#navigation_bar {
+	z-index: 999;
+	background: none repeat scroll 0 0 $concrete;
+	border-bottom: 1px solid $color_mercury_approx;
+	position: relative;
+}
+@media(min-width: 320px) {
+	#navigation_bar {
+		height: 30px;
+		top: 50px;
+		margin-bottom: 60px;
+		z-index: 999;
+	}
+}
+.navbar-fixed-bottom {
+	z-index: 1200;
+}
+@media(min-width: 768px) {
+	.sidebar {
+		position: fixed;
+		top: 60px;
+		bottom: 0;
+		left: 0;
+		z-index: 1200;
+		display: block;
+		overflow-x: hidden;
+		overflow-y: auto;
+		background-color: $color_wild_sand_approx;
+		border-right: 1px solid $color_gallery_approx;
+		padding-top: 10px;
+	}
+	#navigation_bar {
+		top: 40px;
+		height: 50px;
+		position: fixed;
+		z-index: 1;
+	}
+	#header_bottom {
+		margin-bottom: 100px;
+	}
+	.main {
+		padding-right: 40px;
+		padding-left: 40px;
+	}
+}
+@media(min-width: 970px) {
+	#navigation_bar {
+		height: 50px;
+		top: 40px;
+		position: fixed;
+		z-index: 1;
+	}
+	#header_bottom {
+		margin-bottom: 90px;
+	}
+}
+.nav-sidebar {
+	margin-right: -21px;
+	margin-bottom: 20px;
+	margin-left: -20px;
+	> {
+		li > a {
+			padding-right: 20px;
+			padding-left: 20px;
+		}
+		.active > a {
+			color: $white;
+			background-color: $color_boston_blue_approx;
+			&:hover {
+				color: $white;
+				background-color: $color_boston_blue_approx;
+			}
+			&:focus {
+				color: $white;
+				background-color: $color_boston_blue_approx;
+			}
+		}
+	}
+}
+.main {
+	padding: 20px;
+	.page-header {
+		margin-top: 0;
+	}
+}
+.placeholders {
+	margin-bottom: 30px;
+	text-align: center;
+	h4 {
+		margin-bottom: 0;
+	}
+}
+.placeholder {
+	margin-bottom: 20px;
+	img {
+		display: inline-block;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 50%;
+	}
+}
+tr {
+	border-collapse: collapse;
+	vertical-align: top;
+	color: $color_mine_shaft_approx;
+}
+td {
+	border-collapse: collapse;
+	vertical-align: top;
+	color: $color_mine_shaft_approx;
+}
+#form_all {
+}
+#header_top_container {
+	position: relative;
+	padding: 2px;
+	display: block;
+	float: right;
+}
+#form_top_image {
+	display: block;
+	float: right;
+	.fa-trash-o {
+		color: $color_scarlet_75_approx;
+	}
+}
+.class_detail_form {
+	display: block;
+	float: left;
+	min-width: 400px;
+}
+#non-visible {
+	visibility: hidden;
+	margin-top: 200px;
+	position: relative;
+	bottom: 0;
+}
+#user_login {
+	input {
+		line-height: 20px;
+		color: $black;
+	}
+	ul li label {
+		padding: 0 !important;
+		display: inline-block;
+		width: 120px;
+		text-align: right;
+		margin-right: 10px;
+	}
+}
+#create_new_user {
+	input {
+		line-height: 20px;
+		color: $black;
+	}
+	ul li label {
+		padding: 0 !important;
+		display: inline-block;
+		width: 120px;
+		text-align: right;
+		margin-right: 10px;
+	}
+}
+.ino_serch_setting {
+	.btn-default {
+		color: $color_mine_shaft_approx;
+		background-color: $color_gallery_approx;
+		border-color: $color_celeste_approx;
+	}
+	.btn {
+		display: inline-block;
+		font-size: 9px;
+		font-weight: normal;
+		line-height: 1;
+		text-align: center;
+		white-space: unset;
+		vertical-align: middle;
+		cursor: pointer;
+		background-image: none;
+	}
+}
+.mainbar {
+	float: left;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.width-100 {
+	width: 100%;
+}
+#sys_menu_left_vertical {
+	.fa {
+		a {
+			font-family: $font_1, $font_2;
+			font-size: 12px;
+			line-height: 20px;
+			font-weight: bold;
+		}
+		li a {
+			font-weight: normal;
+		}
+	}
+	.btn {
+		font-size: 10px !important;
+	}
+	ul.child_menu li {
+		&:hover {
+			background-color: $color_gum_leaf_77_approx;
+			border: 2px solid $white;
+			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+			border-radius: 5px;
+		}
+		a:hover {
+			color: $color_jelly_bean_approx;
+			font-weight: bold;
+		}
+	}
+}
+.panel-ino-classy {
+	border-color: $color_alto_91_approx;
+	> .panel-heading {
+		color: $color_woodsmoke_approx;
+		background-color: $color_tahuna_sands_91_approx;
+		border-color: $color_alto_91_approx;
+	}
+}
+.panel-ino-light-grey {
+	border-color: $color_alto_91_approx;
+	> .panel-heading {
+		color: $black;
+		background-color: $color_ebb_65_approx;
+		border-color: $color_alto_91_approx;
+	}
+}
+.ino-btn {
+	background-color: $color_steel_blue_approx;
+	color: $white;
+	font-weight: bold;
+	padding: 5px 30px;
+}
+.btn {
+	font-size: 12px !important;
+}
+.navbar-collapse {
+	padding-right: 20px !important;
+}
+.container-fluid a.navbar-brand {
+	color: $color_mercury_86_approx !important;
+	font-size: 25px;
+	font-weight: 900;
+	line-height: 0 !important;
+}
+.make-center img {
+	margin: auto;
+}
+.footer_post li {
+	float: left;
+	margin: 2px;
+	list-style: none;
+	img {
+		padding: 4px;
+		width: 80px;
+		&:hover {
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+.blog-masonry .blog-carousel {
+	margin: 20px 0;
+	overflow: hidden;
+	padding: 20px;
+	background: $white;
+	border: 1px solid $gallery;
+}
+.blog-carousel-meta span {
+	font-size: 12px;
+	padding-right: 5px;
+	a {
+		color: $color_ironside_gray_approx;
+	}
+	i {
+		font-size: 12px;
+		padding-right: 5px;
+		color: var(--icons-color);
+	}
+}
+.entry:hover {
+	.post-type {
+		opacity: 0;
+	}
+	.banner-hover {
+		opacity: 0;
+	}
+	.magnifier {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+.reviews_widget .recent_posts_widget {
+	a {
+		color: $color_log_cabin_approx !important;
+		font-weight: normal;
+	}
+	> li img {
+		max-width: 120px !important;
+		padding: 4px;
+	}
+}
+.meta_widget a {
+	font-weight: 300 !important;
+}
+.title h2 {
+	text-transform: uppercase;
+	font-size: 24px;
+}
+.tagcloud a {
+	float: left;
+	display: block;
+	margin-bottom: 6px;
+	margin-right: 6px;
+	//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+	border-radius: 3px;
+	padding: 3px 10px;
+	color: $color_pale_slate_approx !important;
+	text-decoration: none;
+	border: 1px solid $color_shark_approx;
+	background: $mine_shaft;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: none !important;
+	&:hover {
+		background: $color_log_cabin_approx;
+		border: 1px solid inherit;
+		color: $white !important;
+		text-decoration: none;
+		background-color: var(--header-style-1-color);
+	}
+}
+.buddypress_tabber_widget_member li {
+	display: block;
+	margin: 10px 0 20px;
+	position: relative;
+	overflow: hidden;
+	a {
+		color: $color_log_cabin_approx !important;
+		font-weight: normal;
+	}
+	img {
+		max-width: 75px !important;
+		padding: 4px;
+		&:hover {
+			background-color: var(--header-style-1-color);
+		}
+	}
+	span {
+		padding-left: 10px;
+		margin-bottom: 0;
+		font-size: 16px !important;
+		text-transform: uppercase !important;
+		vertical-align: super;
+		padding-bottom: 0;
+	}
+	.readmore {
+		margin-top: -35px;
+		padding-left: 90px;
+		padding-top: 0;
+		position: absolute;
+	}
+}
+.recent_posts li {
+	list-style: none;
+}
+div.thumbnails {
+	padding-top: 10px;
+	zoom: 1;
+	.entry {
+		border: 1px solid $white;
+		float: left;
+		width: 30%;
+		margin-right: 4.9%;
+	}
+	.magnifier .buttons {
+		top: 40%;
+	}
+}
+.tabbable .nav-tabs {
+	background: $color_bon_jour_approx;
+	border: 1px solid $color_iron_approx !important;
+}
+.shop-right .title {
+	h2 {
+		margin-bottom: 5px;
+		padding-bottom: 0;
+		font-size: 22px;
+	}
+	.rating {
+		margin-bottom: 10px;
+	}
+	.price {
+		font-size: 14px !important;
+		font-weight: 500;
+		color: var(--icons-color);
+	}
+}
+.portfolio-carousel .entry {
+	display: block;
+	position: relative;
+}
+.shopping-cart-widget li {
+	*zoom: 1;
+	margin: 0 0 1em;
+	&:before {
+		content: "";
+		display: table;
+	}
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	img {
+		width: 40px;
+		float: right;
+		margin-left: 1em;
+	}
+	.quantity {
+		width: auto;
+		float: none;
+	}
+	a {
+		display: block;
+	}
+	&:last-child {
+		margin: 0;
+		border: none;
+	}
+}
+.cart_list li {
+	list-style: none;
+}
+.tab-pane .buddy_members .item {
+	margin: 10px;
+}
+.single-portfolio .title h2 {
+	font-size: 24px;
+	text-transform: none;
+	margin-top: 0;
+	padding-top: 0;
+}
+.product_details ul li {
+	list-style: none;
+	padding-left: 2px;
+	padding-bottom: 5px;
+	a {
+		color: $color_storm_dust_approx;
+	}
+}
+.pager li > {
+	a {
+		background-color: $white;
+		border: 1px solid $white;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		color: $white;
+		margin: 30px 0 0;
+		display: inline-block;
+		padding: 5px 14px;
+		background-color: var(--header-style-1-color);
+		&:hover {
+			background-color: $color_log_cabin_approx;
+			color: $white;
+		}
+	}
+	span {
+		background-color: $white;
+		border: 1px solid $white;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		color: $white;
+		margin: 30px 0 0;
+		display: inline-block;
+		padding: 5px 14px;
+		background-color: var(--header-style-1-color);
+		&:hover {
+			background-color: $color_log_cabin_approx;
+			color: $white;
+		}
+	}
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+.fullscreenbanner-container ul {
+	display: none;
+}
+.tp-bullets.simplebullets {
+	&.navbar {
+		height: 35px;
+		padding: 0;
+	}
+	.bullet {
+		cursor: pointer;
+		position: relative !important;
+		background: $gallery !important;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 100px;
+		//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+		box-shadow: none;
+		width: 6px !important;
+		height: 6px !important;
+		border: 6px solid rgba(0, 0, 0, 0) !important;
+		display: inline-block;
+		margin-right: 2px !important;
+		margin-bottom: 14px !important;
+		//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: background-color 0.2s, border-color 0.2s;
+		float: none !important;
+		&.last {
+			margin-right: 0;
+		}
+		&:hover {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+			width: 6px !important;
+			height: 6px !important;
+			border: 5px solid $color_woodsmoke_approx;
+			border-color: var(--icons-color) !important;
+		}
+		&.selected {
+			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+			box-shadow: none;
+			width: 6px !important;
+			height: 6px !important;
+			border: 5px solid $color_woodsmoke_approx;
+			border-color: var(--icons-color) !important;
+		}
+	}
+}
+.slides-navigation a {
+	opacity: 0.6 !important;
+	filter: alpha(opacity=60);
+	&:hover {
+		filter: alpha(opacity=100);
+		opacity: 1 !important;
+	}
+}
+.banners li {
+	list-style: none;
+	margin: 5px;
+	float: left !important;
+	.img-thumbnail {
+		background-color: $color_pink_swan_approx;
+		border: 1px solid $color_alto_approx;
+		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
+		border-radius: 0;
+		padding: 5px;
+	}
+	&:hover .img-thumbnail {
+		background-color: var(--header-style-1-color);
+	}
+}
+.nav-tabs > li {
+	> a {
+		border: 1px solid $gallery;
+		line-height: 1.42857;
+		margin-right: 0;
+	}
+	&.active > a {
+		background-color: var(--header-style-1-color);
+		color: $white !important;
+		&:hover {
+			background-color: var(--header-style-1-color);
+		}
+		&:focus {
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+		}
+	}
+}
+.panel-group .panel-heading + .panel-collapse .panel-body {
+	border: 0 solid $white !important;
+	//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 0 $white;
+	background: none;
+}
+.service-icon i {
+	color: $color_storm_dust_approx;
+}
+.white-clients .client-wrap {
+	border-color: $color_alto_approx;
+}
+.not_found h1 {
+	margin-bottom: 0;
+	font-size: 200px;
+	padding-bottom: 0;
+	font-weight: bold;
+	line-height: 1;
+}
+#comments_form .form-control {
+	margin-bottom: 10px;
+}
+.leave-comment textarea {
+	height: 150px;
+}
+.timeline-body > {
+	p {
+		margin-bottom: 0;
+		+ p {
+			margin-top: 5px;
+		}
+	}
+	ul {
+		margin-bottom: 0;
+	}
+}
+.pagination > {
+	li > {
+		a {
+			background-color: $color_wild_sand_approx;
+			color: $color_log_cabin_approx;
+			float: left;
+			line-height: 1.82857;
+			margin-left: 5px;
+			padding: 3px 10px;
+			position: relative;
+			text-decoration: none;
+			&:hover {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+			&:focus {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+		}
+		span {
+			background-color: $color_wild_sand_approx;
+			color: $color_log_cabin_approx;
+			float: left;
+			line-height: 1.82857;
+			margin-left: 5px;
+			padding: 3px 10px;
+			position: relative;
+			text-decoration: none;
+			&:hover {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+			&:focus {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+		}
+	}
+	.active > {
+		a {
+			border-color: var(--icons-color);
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+			&:hover {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+			&:focus {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+		}
+		span {
+			border-color: var(--icons-color);
+			background-color: var(--header-style-1-color);
+			color: $white !important;
+			&:hover {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+			&:focus {
+				border-color: var(--icons-color);
+				background-color: var(--header-style-1-color);
+				color: $white !important;
+			}
+		}
+	}
+}
+#bbpress-forums li {
+	&.bbp-header {
+		border-top-color: var(--icons-color) !important;
+	}
+	&.bbp-footer {
+		border-top-color: var(--icons-color) !important;
+	}
+	&.bbp-body ul.forum li {
+		&.bbp-forum-reply-count:hover {
+			background-color: var(--header-style-1-color);
+		}
+		&.bbp-forum-topic-count:hover {
+			background-color: var(--header-style-1-color);
+		}
+	}
+}
+.form-control:focus {
+	border-color: var(--icons-color);
+}
+#three-parallax .testimonial h3 {
+	color: var(--icons-color) !important;
+}
+.rating i {
+	color: var(--icons-color);
+}
+.milestone-counter i {
+	color: var(--icons-color);
+}
+.mmode .title span {
+	color: var(--icons-color);
+}
+.timeline-badge.danger {
+	background-color: var(--icons-color) !important;
+}
+.flex-control-paging li a.flex-active {
+	background-color: var(--icons-color) !important;
+}
+.demo_changer .demo-icon {
+	background-color: var(--header-style-1-color);
+}
+.buddy_image img:hover {
+	background-color: var(--header-style-1-color);
+}
+#owl_blog_two_line .owl-controls {
+	.owl-prev:hover {
+		background-color: var(--header-style-1-color);
+	}
+	.owl-next:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+#owl_blog_three_line .owl-controls {
+	.owl-prev:hover {
+		background-color: var(--header-style-1-color);
+	}
+	.owl-next:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+#owl_portfolio_two_line .owl-controls {
+	.owl-prev:hover {
+		background-color: var(--header-style-1-color);
+	}
+	.owl-next:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+#owl_shop_carousel .owl-controls {
+	.owl-prev:hover {
+		background-color: var(--header-style-1-color);
+	}
+	.owl-next:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+#owl_shop_carousel_1 .owl-controls {
+	.owl-prev:hover {
+		background-color: var(--header-style-1-color);
+	}
+	.owl-next:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+#owl-blog .owl-controls {
+	.owl-prev:hover {
+		background-color: var(--header-style-1-color);
+	}
+	.owl-next:hover {
+		background-color: var(--header-style-1-color);
+	}
+}
+.rsDefaultInv .rsBullet.rsNavSelected span {
+	background-color: var(--header-style-1-color);
+}
+.flex-direction-nav a {
+	background-color: $color_lightning_yellow_70_approx;
+}
+.tp-caption .btn {
+	color: $white !important;
+}
+.testimonial h3 {
+	color: $white !important;
+}
+.content_summary .panel-body {
+	height: 280px;
+	display: block;
+}
+li.child_link {
+	padding-left: 20px;
+}
+.comment_subject p {
+	margin: 0;
+}
+.four_column ul li {
+	display: inline-block;
+	font-size: 10px !important;
+	margin-bottom: 3px;
+	label {
+		display: inline-block;
+		font-size: 10px !important;
+		margin-bottom: 3px;
+	}
+}
+.second_rowset ul li.large_box li {
+	display: inline-block;
+	width: 140px;
+	margin-bottom: 5px;
+}
+.no-close .ui-dialog-titlebar-close {
+	display: none;
+}
+.itemId.popup {
+	cursor: pointer;
+	border: none;
+	width: 15px;
+	height: 15px;
+	background: $url_18 no-repeat left top;
+}
+add_detail_values img {
+	float: left;
+}
+.add_detail_values0 img {
+	float: left;
+}
+.add_detail_values1 img {
+	float: left;
+}
+.document_table label {
+	display: inline-block;
+	width: 200px;
+}
+textarea.address {
+	width: 140px;
+}
+.ino_right_top .dropdown {
+	position: relative;
+	top: 8px;
+	right: 3px;
+}
+.form_detail_data_fs legend {
+	font-size: 0.8em;
+}
+fieldset.form_detail_data_fs {
+	padding: 10px;
+	background: $color_quill_gray_approx;
+	border: 1px solid $color_celeste_approx;
+	legend {
+		margin: 0 !important;
+	}
+}
+.ino.navbar-form {
+	padding: 0 !important;
+}
+.nav > li > a {
+	padding: 5px 10px !important;
+}
