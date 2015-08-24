@@ -1,4 +1,4 @@
-require 'bootstrap-sass/version'
+ require File.join(File.dirname(__FILE__), 'bootstrap-sass/version')
 module Bootstrap
   class << self
     # Inspired by Kaminari
