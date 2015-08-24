@@ -6,7 +6,9 @@ $color_log_cabin_approx: #222222;
 $color_jelly_bean_approx: #6d1a42;
 $color_cod_gray_approx: #080808;
 $color_pink_swan_approx: #b9b9b9;
-$Header-style1-color: #6d1a42;
+$Header-style1-color: #909090;
+$FAM_BLUE: #2500ff;
+$IPN_COLOR:  #6d1a42;
 $white: #fff;
 $color_ironside_gray_approx: #686868;
 $color_masala_approx: #3a3a3a;
@@ -655,6 +657,7 @@ section::after {
 		border-bottom: 1px solid $gallery;
 		.navbar {
 			margin-top: 0;
+            
 		}
 		.navbar-brand {
 			line-height: 38px;
@@ -673,7 +676,8 @@ section::after {
 	}
 	.navbar-default {
 		background-color: $white;
-		background: $white_100;
+		/*background: $white_100;*/
+        background: $IPN_COLOR; 
 		border-color: rgba(0, 0, 0, 0);
 		.navbar-nav > .open > a {
 			color: $white !important;
