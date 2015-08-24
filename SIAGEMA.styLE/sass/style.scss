@@ -1,13 +1,12 @@
 //colors
 $color_wild_sand_approx: #f5f5f5;
 $color_gallery_approx: #eee;
-$science_blue: #06c;
-$storm_dust: #646463;
 $black: #000;
 $color_log_cabin_approx: #222222;
 $color_jelly_bean_approx: #2574a9;
 $color_cod_gray_approx: #080808;
 $color_pink_swan_approx: #b9b9b9;
+$color_curious_blue_approx: #39c;
 $white: #fff;
 $color_ironside_gray_approx: #686868;
 $color_masala_approx: #3a3a3a;
@@ -62,6 +61,7 @@ $color_shady_lady_approx: #a9a9a9;
 $color_hunter_green_approx: #161616;
 $color_sushi_approx: #77be32;
 $color_red_orange_approx: #f2333a;
+$icon_color_foreground: #800010;
 $color_gravel_approx: #444647;
 $color_mountain_mist_approx: #999999;
 $color_lightning_yellow_70_approx: rgba(247,194,33,0.7);
@@ -205,10 +205,6 @@ $url_18: url(images/serach.png);
 }
 
 
-:root {
-	var---icons-color: $science_blue;
-	var---header-style-1-color: $storm_dust;
-}
 body {
 	font-family: $font_1, $font_2;
 	font-weight: 350;
@@ -225,7 +221,7 @@ h1 {
 	line-height: 140% !important;
 	color: $color_log_cabin_approx;
 	font-size: 28px;
-	color: var(--header-style-1-color);
+	color: $color_curious_blue_approx;
 	&.bgc {
 		background-color: $color_gallery_approx;
 		Padding: 10px;
@@ -235,7 +231,7 @@ h1 {
 		text-decoration: none !important;
 		&:hover {
 			color: $white !important;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -248,7 +244,7 @@ h2 {
 	line-height: 140% !important;
 	color: $color_log_cabin_approx;
 	font-size: 1.2em;
-	color: var(--header-style-1-color);
+	color: $color_curious_blue_approx;
 	font-weight: bold;
 	&.bgc {
 		background-color: $color_gallery_approx;
@@ -259,7 +255,7 @@ h2 {
 		text-decoration: none !important;
 		&:hover {
 			color: $white !important;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -281,7 +277,7 @@ h3 {
 		text-decoration: none !important;
 		&:hover {
 			color: $white !important;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 	&.nav-panel {
@@ -307,7 +303,7 @@ h4 {
 		text-decoration: none !important;
 		&:hover {
 			color: $white !important;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -325,7 +321,7 @@ h5 {
 		text-decoration: none !important;
 		&:hover {
 			color: $white !important;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -343,7 +339,7 @@ h6 {
 		text-decoration: none !important;
 		&:hover {
 			color: $white !important;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -364,7 +360,7 @@ a {
 	text-decoration: none;
 	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 	transition: background-color .2s linear, color .2s linear;
-	color: var(--icons-color);
+	color: $icon_color_foreground;
 	&:hover {
 		text-decoration: none;
 		color: $color_ironside_gray_approx;
@@ -376,7 +372,7 @@ a {
 	&.readmore {
 		display: block;
 		font-style: italic;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 	&.navbar-brand {
 		color: $color_masala_approx !important;
@@ -536,7 +532,7 @@ ul {
 }
 mark {
 	padding: 6px 12px;
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 	color: $white !important;
 }
 section::before {
@@ -643,7 +639,7 @@ section::after {
 }
 #header-style-1 {
 	padding: 14px 0;
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 	border-bottom: 1px solid $concrete;
 	&.affix {
 		position: fixed;
@@ -683,18 +679,18 @@ section::after {
 			color: $white !important;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 03px;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			&:hover {
 				color: $white !important;
 				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 				border-radius: 03px;
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 			&:focus {
 				color: $white !important;
 				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 				border-radius: 03px;
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 		}
 	}
@@ -724,7 +720,7 @@ section::after {
 				box-shadow: none;
 				margin-top: 25px;
 				border-top: 3px solid $white;
-				border-top-color: var(--icons-color) !important;
+				border-top-color: $icon_color_foreground !important;
 			}
 		}
 		.container {
@@ -746,7 +742,7 @@ section::after {
 			color: $color_log_cabin_approx;
 			padding: 5px 0;
 			i {
-				color: var(--icons-color);
+				color: $icon_color_foreground;
 			}
 		}
 	}
@@ -762,7 +758,7 @@ section::after {
 					content: "\f105";
 					font-size: 13px;
 					padding-right: 5px;
-					color: var(--icons-color);
+					color: $icon_color_foreground;
 				}
 			}
 		}
@@ -779,7 +775,7 @@ section::after {
 		box-shadow: none;
 		margin-top: 25px;
 		border-top: 3px solid $white;
-		border-top-color: var(--icons-color) !important;
+		border-top-color: $icon_color_foreground !important;
 		padding: 0 !important;
 		//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 		border-radius: 0 !important;
@@ -827,19 +823,19 @@ section::after {
 			color: $white !important;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 03px;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 		&:focus {
 			color: $white !important;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 03px;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 		&:active {
 			color: $white !important;
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 03px;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -850,7 +846,7 @@ section::after {
 		color: $color_log_cabin_approx !important;
 	}
 	#owl-testimonial .owl-controls .owl-page.active span {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .topbar {
@@ -910,7 +906,7 @@ section::after {
 		border-left: 1px solid $concrete;
 		border-right: none;
 		i {
-			color: var(--icons-color);
+			color: $icon_color_foreground;
 		}
 	}
 	.topbar-cart {
@@ -920,7 +916,7 @@ section::after {
 		border-right: 1px solid $concrete;
 		border-left: 1px solid $concrete;
 		i {
-			color: var(--icons-color);
+			color: $icon_color_foreground;
 		}
 	}
 	.col-lg-4 {
@@ -933,7 +929,7 @@ section::after {
 		display: block;
 		float: right;
 		i {
-			color: var(--icons-color);
+			color: $icon_color_foreground;
 		}
 	}
 	.topmenu {
@@ -950,7 +946,7 @@ section::after {
 			border-right: 1px solid $concrete;
 		}
 		a:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -1022,7 +1018,7 @@ section::after {
 		border: none;
 		color: $color_ironside_gray_approx;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 	}
@@ -1052,7 +1048,7 @@ section::after {
 		border: none;
 		color: $color_ironside_gray_approx;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 	}
@@ -1082,7 +1078,7 @@ section::after {
 		border: none;
 		color: $color_ironside_gray_approx;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 	}
@@ -1102,10 +1098,10 @@ section::after {
 		a {
 			color: $color_pale_slate_approx;
 			&:hover {
-				color: var(--icons-color);
+				color: $icon_color_foreground;
 			}
 			&:focus {
-				color: var(--icons-color);
+				color: $icon_color_foreground;
 			}
 		}
 	}
@@ -1159,7 +1155,7 @@ section::after {
 			padding-right: 3px;
 			i {
 				padding-right: 3px;
-				color: var(--icons-color);
+				color: $icon_color_foreground;
 			}
 		}
 	}
@@ -1209,7 +1205,7 @@ section::after {
 		color: $color_log_cabin_approx;
 		margin: 0 15px 0 0;
 		background: $white;
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 	}
 	.btn {
 		width: 86px;
@@ -1230,16 +1226,16 @@ section::after {
 		&.active > a {
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 0;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			&:hover {
 				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 				border-radius: 0;
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 			&:focus {
 				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 				border-radius: 0;
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 		}
 		> a {
@@ -1255,12 +1251,12 @@ section::after {
 		&:hover {
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 0;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 		&:focus {
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 0;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -1271,18 +1267,18 @@ section::after {
 			&.active > a {
 				//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 				border-radius: 0;
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 				&:hover {
 					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 					border-radius: 0;
-					background-color: var(--header-style-1-color);
+					background-color: $color_curious_blue_approx;
 					color: $white !important;
 				}
 				&:focus {
 					//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 					border-radius: 0;
-					background-color: var(--header-style-1-color);
+					background-color: $color_curious_blue_approx;
 					color: $white !important;
 				}
 			}
@@ -1304,13 +1300,13 @@ section::after {
 		&:hover {
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 0;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 		&:focus {
 			//Instead of the line below you could use @include border-radius($radius, $vertical-radius)
 			border-radius: 0;
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 	}
@@ -1318,7 +1314,7 @@ section::after {
 		max-width: 120px !important;
 		padding: 4px;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -1368,7 +1364,7 @@ section::after {
 	h3 {
 		font-size: 24px;
 		span {
-			color: var(--icons-color);
+			color: $icon_color_foreground;
 		}
 	}
 	.title h3 {
@@ -1462,7 +1458,7 @@ section::after {
 			max-width: 75px !important;
 			padding: 4px;
 			&:hover {
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 		}
 	}
@@ -1503,7 +1499,7 @@ section::after {
 	background-color: $color_wild_sand_approx;
 	padding: 30px 20px;
 	border-bottom: 3px solid $color_dove_gray_approx;
-	border-color: var(--icons-color);
+	border-color: $icon_color_foreground;
 	.lead {
 		font-weight: 300 !important;
 		font-family: $font_1;
@@ -1514,7 +1510,7 @@ section::after {
 	.img-circle {
 		border: 3px solid $white;
 		width: 100px;
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 	}
 	h3 {
 		font-size: 16px;
@@ -1524,10 +1520,10 @@ section::after {
 	}
 	.owl-controls {
 		.owl-prev:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 		.owl-next:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -1568,7 +1564,7 @@ section::after {
 		color: $white !important;
 	}
 	#owl-testimonial .owl-controls .owl-page.active span {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .box {
@@ -1586,7 +1582,7 @@ section::after {
 	.price2 {
 		font-size: 16px;
 		margin: 10px;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 	.price {
 		font-size: 18px;
@@ -1664,10 +1660,10 @@ section::after {
 			color: $white !important;
 			border: none !important;
 			&:hover {
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 			&:focus {
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 		}
 	}
@@ -1771,7 +1767,7 @@ section::after {
 	.price {
 		font-size: 14px !important;
 		font-weight: 500;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 	.cats {
 		font-weight: lighter !important;
@@ -1842,7 +1838,7 @@ section::after {
 	padding: 40px;
 	color: $white !important;
 	span {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .small_thin_grey1 {
@@ -1850,7 +1846,7 @@ section::after {
 	color: $white !important;
 	i {
 		padding: 0 5px;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .cat_widget {
@@ -1859,14 +1855,14 @@ section::after {
 		font-family: $font_1, $font_2;
 		font-size: 18px;
 		text-transform: uppercase;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 	.entry {
 		display: block;
 		position: relative;
 	}
 	&:hover {
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 	}
 	.magnifier .buttons {
 		top: 38%;
@@ -1881,7 +1877,7 @@ section::after {
 		width: 100%;
 	}
 	span {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .portfolio_item {
@@ -1919,7 +1915,7 @@ section::after {
 	}
 	.popover {
 		@extend %extend_2;
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 		&.top {
 			margin-top: -60px;
 			z-index: 9999;
@@ -1928,7 +1924,7 @@ section::after {
 			> .arrow {
 				@extend %extend_1;
 				&:after {
-					border-top: 10px solid var(--icons-color) !important;
+					border-top: 10px solid $icon_color_foreground !important;
 				}
 			}
 		}
@@ -1948,7 +1944,7 @@ section::after {
 		padding: 5px 4px 20px;
 	}
 	img:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .buddypress_content {
@@ -1968,7 +1964,7 @@ section::after {
 .buddy_desc {
 	padding: 15px;
 	border: 1px solid $color_quill_gray_approx;
-	border-color: var(--icons-color);
+	border-color: $icon_color_foreground;
 	small {
 		display: block;
 		color: $color_log_cabin_approx;
@@ -1995,17 +1991,17 @@ section::after {
 	border-radius: 3px;
 	i {
 		padding-right: 5px;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 	a {
 		color: $color_log_cabin_approx;
 	}
 	&:hover {
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 		.circle {
 			color: $white;
-			border-color: var(--icons-color);
-			background-color: var(--header-style-1-color);
+			border-color: $icon_color_foreground;
+			background-color: $color_curious_blue_approx;
 		}
 	}
 	.title h3 {
@@ -2024,7 +2020,7 @@ section::after {
 	position: absolute;
 	top: 15%;
 	width: 0;
-	border-right-color: var(--icons-color);
+	border-right-color: $icon_color_foreground;
 }
 .circle {
 	top: -53px;
@@ -2046,7 +2042,7 @@ section::after {
 	margin: 40px 0 20px;
 	.popover {
 		@extend %extend_2;
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 		&.top {
 			margin-top: -60px;
 			z-index: 9999;
@@ -2055,7 +2051,7 @@ section::after {
 			> .arrow {
 				@extend %extend_1;
 				&:after {
-					border-top: 10px solid var(--icons-color) !important;
+					border-top: 10px solid $icon_color_foreground !important;
 				}
 			}
 		}
@@ -2069,11 +2065,11 @@ section::after {
 				border: 1px solid $color_alto_approx;
 			}
 			&.active span {
-				background-color: var(--header-style-1-color);
+				background-color: $color_curious_blue_approx;
 			}
 		}
 		&.clickable .owl-page:hover span {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 	.item {
@@ -2098,7 +2094,7 @@ section::after {
 		padding: 5px 4px 20px;
 	}
 	img:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .group_img {
@@ -2201,18 +2197,18 @@ section::after {
 		color: $color_log_cabin_approx !important;
 		width: auto !important;
 		&:hover {
-			border-color: var(--icons-color);
-			background-color: var(--header-style-1-color);
+			border-color: $icon_color_foreground;
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 		&:focus {
-			border-color: var(--icons-color);
-			background-color: var(--header-style-1-color);
+			border-color: $icon_color_foreground;
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 		&:active {
-			border-color: var(--icons-color);
-			background-color: var(--header-style-1-color);
+			border-color: $icon_color_foreground;
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 	}
@@ -2384,7 +2380,7 @@ section::after {
 		margin-bottom: 0;
 		margin-top: 0;
 		border-width: 2px 0 0;
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 	}
 	h2 {
 		font-size: 31px;
@@ -2541,7 +2537,7 @@ section::after {
 	font-weight: bold;
 	color: $white;
 	span {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .high_title2 {
@@ -2552,7 +2548,7 @@ section::after {
 	line-height: 120% !important;
 	padding: 0 0 10px;
 	position: relative;
-	color: var(--icons-color);
+	color: $icon_color_foreground;
 }
 .high_title {
 	font-size: 70px;
@@ -2562,7 +2558,7 @@ section::after {
 	line-height: 140% !important;
 	padding: 0 0 10px;
 	position: relative;
-	color: var(--icons-color);
+	color: $icon_color_foreground;
 }
 .big_title_slider {
 	color: $white;
@@ -2574,7 +2570,7 @@ section::after {
 	padding: 0 0 10px;
 	position: relative;
 	span {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .big_title {
@@ -2587,7 +2583,7 @@ section::after {
 	padding: 0 0 10px;
 	position: relative;
 	span {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .slider_title_a {
@@ -2599,7 +2595,7 @@ section::after {
 	line-height: 140% !important;
 	padding: 0 0 10px;
 	position: relative;
-	color: var(--icons-color);
+	color: $icon_color_foreground;
 }
 .upper_title {
 	text-transform: uppercase;
@@ -2624,7 +2620,7 @@ section::after {
 	font-weight: normal !important;
 	color: $color_log_cabin_approx !important;
 	i {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .light_title {
@@ -2647,7 +2643,7 @@ section::after {
 	position: relative;
 	line-height: 140% !important;
 	span {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .mini_title {
@@ -2662,7 +2658,7 @@ section::after {
 	line-height: 140% !important;
 	span {
 		font-size: 24px;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .tparrows {
@@ -2687,8 +2683,8 @@ section::after {
 	}
 	&:hover {
 		color: $white;
-		border-color: var(--icons-color);
-		background-color: var(--icons-color) !important;
+		border-color: $icon_color_foreground;
+		background-color: $icon_color_foreground !important;
 	}
 	&.tp-rightarrow:before {
 		margin-left: 1px;
@@ -2855,7 +2851,7 @@ acronym {
 	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 	transition: background-color .2s linear, color .2s linear;
 	&:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 		h3 {
 			color: $white;
 		}
@@ -2867,7 +2863,7 @@ acronym {
 			background: $color_log_cabin_approx !important;
 		}
 		.priceamount {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 		ul li {
 			color: $white;
@@ -2948,11 +2944,11 @@ acronym {
 		color: $color_log_cabin_approx;
 		border: 0 solid $gallery !important;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 		&:focus {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -3003,7 +2999,7 @@ acronym {
 			}
 		}
 		&:hover {
-			border-color: var(--icons-color);
+			border-color: $icon_color_foreground;
 		}
 	}
 }
@@ -3040,7 +3036,7 @@ acronym {
 	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 	transition: all .7s ease-in-out;
 	overflow: auto;
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 }
 .progress {
 	position: relative;
@@ -3090,7 +3086,7 @@ acronym {
 			&.active {
 				background: $color_wild_sand_approx;
 				em {
-					background-color: var(--header-style-1-color);
+					background-color: $color_curious_blue_approx;
 				}
 			}
 			> em {
@@ -3133,7 +3129,7 @@ acronym {
 			&.active {
 				background: none;
 				em {
-					background-color: var(--header-style-1-color);
+					background-color: $color_curious_blue_approx;
 				}
 			}
 			> em {
@@ -3172,7 +3168,7 @@ acronym {
 			padding-right: 5px;
 			position: relative;
 			top: 2px;
-			color: var(--icons-color);
+			color: $icon_color_foreground;
 		}
 		a {
 			color: $color_storm_dust_approx;
@@ -3184,7 +3180,7 @@ acronym {
 		padding: 15px;
 	}
 	.owl-controls .owl-page span {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .item {
@@ -3196,11 +3192,11 @@ acronym {
 		font-size: 24px;
 		float: left;
 		margin: 0 20px 0 0;
-		border-color: var(--icons-color);
-		color: var(--icons-color);
+		border-color: $icon_color_foreground;
+		color: $icon_color_foreground;
 	}
 	&:hover .icon-container {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 		color: $white !important;
 	}
 }
@@ -3284,7 +3280,7 @@ acronym {
 		font-weight: bold;
 	}
 	i {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .ch-info {
@@ -3298,7 +3294,7 @@ acronym {
 	.ch-info-back {
 		//Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
 		transform: rotate3d(0,1,0,180deg);
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 	> div {
 		display: block;
@@ -3319,7 +3315,7 @@ acronym {
 		position: relative;
 	}
 	&:hover .service-title {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 		a {
 			color: $white !important;
 		}
@@ -3362,7 +3358,7 @@ acronym {
 		padding-left: 98px;
 	}
 	&:hover .service-icon i {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .services_vertical {
@@ -3378,8 +3374,8 @@ acronym {
 	}
 	.icon-container {
 		float: left;
-		border-color: var(--icons-color);
-		background-color: var(--header-style-1-color);
+		border-color: $icon_color_foreground;
+		background-color: $color_curious_blue_approx;
 	}
 	.general-title h2 {
 		padding: 0 !important;
@@ -3416,13 +3412,13 @@ acronym {
 			border-bottom-color: $white;
 		}
 		.service-icon-circle {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			i {
 				color: $white !important;
 			}
 		}
 		.service-icon i {
-			color: var(--icons-color);
+			color: $icon_color_foreground;
 		}
 	}
 }
@@ -3440,7 +3436,7 @@ acronym {
 }
 .make-bg {
 	line-height: 113px !important;
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 	i {
 		font-size: 2.6em !important;
 		color: $white !important;
@@ -3459,13 +3455,13 @@ acronym {
 	border-radius: 0 100px 100px;
 	//Instead of the line below you could use @include transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 	transition: background-color .2s linear, color .2s linear;
-	border-color: var(--icons-color);
+	border-color: $icon_color_foreground;
 	i {
 		font-size: 24px;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 	&.active {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 		i {
 			color: $white !important;
 		}
@@ -3504,7 +3500,7 @@ acronym {
 .btn-primary {
 	color: $white;
 	border: none;
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 	&:hover {
 		color: $white;
 		background-color: $color_log_cabin_approx;
@@ -3552,7 +3548,7 @@ acronym {
 		color: $color_red_orange_approx !important;
 	}
 	.yellow {
-		color: var(--icons-color) !important;
+		color: $icon_color_foreground !important;
 	}
 	.milestone-details {
 		font-size: 21px !important;
@@ -3583,7 +3579,7 @@ acronym {
 		a {
 			color: $color_log_cabin_approx;
 			&:hover {
-				color: var(--icons-color);
+				color: $icon_color_foreground;
 			}
 		}
 	}
@@ -3591,7 +3587,7 @@ acronym {
 .calloutbox-full-mini {
 	padding: 20px 0;
 	text-align: center;
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 	.lead {
 		color: $white;
 		margin: 10px 0 20px;
@@ -3625,7 +3621,7 @@ acronym {
 	color: $white;
 	padding: 30px 20px 20px;
 	overflow: hidden;
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 	.form-control {
 		height: 35px;
 	}
@@ -3661,7 +3657,7 @@ acronym {
 	color: $color_log_cabin_approx !important;
 	background: $color_wild_sand_approx !important;
 	border-left: 8px solid $white;
-	border-color: var(--icons-color);
+	border-color: $icon_color_foreground;
 	h2 {
 		color: $color_log_cabin_approx !important;
 		font-weight: bold;
@@ -3670,7 +3666,7 @@ acronym {
 .bgdark {
 	background: $color_log_cabin_approx !important;
 	span {
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .client-wrap {
@@ -3760,8 +3756,8 @@ acronym {
 	text-align: center;
 	vertical-align: middle;
 	white-space: nowrap;
-	border-color: var(--icons-color);
-	color: var(--icons-color);
+	border-color: $icon_color_foreground;
+	color: $icon_color_foreground;
 }
 .timeline {
 	list-style: none;
@@ -3885,7 +3881,7 @@ acronym {
 		color: $color_log_cabin_approx;
 		position: relative;
 		margin-bottom: -3px;
-		border-color: var(--icons-color);
+		border-color: $icon_color_foreground;
 	}
 }
 .breadcrumb {
@@ -4164,13 +4160,13 @@ acronym {
 	}
 }
 blockquote {
-	border-color: var(--icons-color);
+	border-color: $icon_color_foreground;
 }
 .progress-bar {
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 }
 .make-bg-full {
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 }
 @font-face {
 	font-family: $font_0;
@@ -4224,7 +4220,7 @@ blockquote {
 		color: $color_red_orange_approx !important;
 	}
 	.yellow {
-		color: var(--icons-color) !important;
+		color: $icon_color_foreground !important;
 	}
 	.milestone-details {
 		font-size: 36px !important;
@@ -5158,7 +5154,7 @@ td {
 		padding: 4px;
 		width: 80px;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
@@ -5178,7 +5174,7 @@ td {
 	i {
 		font-size: 12px;
 		padding-right: 5px;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .entry:hover {
@@ -5229,7 +5225,7 @@ td {
 		border: 1px solid inherit;
 		color: $white !important;
 		text-decoration: none;
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .buddypress_tabber_widget_member li {
@@ -5245,7 +5241,7 @@ td {
 		max-width: 75px !important;
 		padding: 4px;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 	span {
@@ -5295,7 +5291,7 @@ div.thumbnails {
 	.price {
 		font-size: 14px !important;
 		font-weight: 500;
-		color: var(--icons-color);
+		color: $icon_color_foreground;
 	}
 }
 .portfolio-carousel .entry {
@@ -5361,7 +5357,7 @@ div.thumbnails {
 		margin: 30px 0 0;
 		display: inline-block;
 		padding: 5px 14px;
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 		&:hover {
 			background-color: $color_log_cabin_approx;
 			color: $white;
@@ -5376,7 +5372,7 @@ div.thumbnails {
 		margin: 30px 0 0;
 		display: inline-block;
 		padding: 5px 14px;
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 		&:hover {
 			background-color: $color_log_cabin_approx;
 			color: $white;
@@ -5421,7 +5417,7 @@ div.thumbnails {
 			width: 6px !important;
 			height: 6px !important;
 			border: 5px solid $color_woodsmoke_approx;
-			border-color: var(--icons-color) !important;
+			border-color: $icon_color_foreground !important;
 		}
 		&.selected {
 			//Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
@@ -5429,7 +5425,7 @@ div.thumbnails {
 			width: 6px !important;
 			height: 6px !important;
 			border: 5px solid $color_woodsmoke_approx;
-			border-color: var(--icons-color) !important;
+			border-color: $icon_color_foreground !important;
 		}
 	}
 }
@@ -5453,7 +5449,7 @@ div.thumbnails {
 		padding: 5px;
 	}
 	&:hover .img-thumbnail {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .nav-tabs > li {
@@ -5463,13 +5459,13 @@ div.thumbnails {
 		margin-right: 0;
 	}
 	&.active > a {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 		color: $white !important;
 		&:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 		&:focus {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 		}
 	}
@@ -5522,13 +5518,13 @@ div.thumbnails {
 			position: relative;
 			text-decoration: none;
 			&:hover {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 			&:focus {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 		}
@@ -5542,45 +5538,45 @@ div.thumbnails {
 			position: relative;
 			text-decoration: none;
 			&:hover {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 			&:focus {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 		}
 	}
 	.active > {
 		a {
-			border-color: var(--icons-color);
-			background-color: var(--header-style-1-color);
+			border-color: $icon_color_foreground;
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 			&:hover {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 			&:focus {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 		}
 		span {
-			border-color: var(--icons-color);
-			background-color: var(--header-style-1-color);
+			border-color: $icon_color_foreground;
+			background-color: $color_curious_blue_approx;
 			color: $white !important;
 			&:hover {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 			&:focus {
-				border-color: var(--icons-color);
-				background-color: var(--header-style-1-color);
+				border-color: $icon_color_foreground;
+				background-color: $color_curious_blue_approx;
 				color: $white !important;
 			}
 		}
@@ -5588,97 +5584,97 @@ div.thumbnails {
 }
 #bbpress-forums li {
 	&.bbp-header {
-		border-top-color: var(--icons-color) !important;
+		border-top-color: $icon_color_foreground !important;
 	}
 	&.bbp-footer {
-		border-top-color: var(--icons-color) !important;
+		border-top-color: $icon_color_foreground !important;
 	}
 	&.bbp-body ul.forum li {
 		&.bbp-forum-reply-count:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 		&.bbp-forum-topic-count:hover {
-			background-color: var(--header-style-1-color);
+			background-color: $color_curious_blue_approx;
 		}
 	}
 }
 .form-control:focus {
-	border-color: var(--icons-color);
+	border-color: $icon_color_foreground;
 }
 #three-parallax .testimonial h3 {
-	color: var(--icons-color) !important;
+	color: $icon_color_foreground !important;
 }
 .rating i {
-	color: var(--icons-color);
+	color: $icon_color_foreground;
 }
 .milestone-counter i {
-	color: var(--icons-color);
+	color: $icon_color_foreground;
 }
 .mmode .title span {
-	color: var(--icons-color);
+	color: $icon_color_foreground;
 }
 .timeline-badge.danger {
-	background-color: var(--icons-color) !important;
+	background-color: $icon_color_foreground !important;
 }
 .flex-control-paging li a.flex-active {
-	background-color: var(--icons-color) !important;
+	background-color: $icon_color_foreground !important;
 }
 .demo_changer .demo-icon {
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 }
 .buddy_image img:hover {
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 }
 #owl_blog_two_line .owl-controls {
 	.owl-prev:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 	.owl-next:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 #owl_blog_three_line .owl-controls {
 	.owl-prev:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 	.owl-next:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 #owl_portfolio_two_line .owl-controls {
 	.owl-prev:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 	.owl-next:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 #owl_shop_carousel .owl-controls {
 	.owl-prev:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 	.owl-next:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 #owl_shop_carousel_1 .owl-controls {
 	.owl-prev:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 	.owl-next:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 #owl-blog .owl-controls {
 	.owl-prev:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 	.owl-next:hover {
-		background-color: var(--header-style-1-color);
+		background-color: $color_curious_blue_approx;
 	}
 }
 .rsDefaultInv .rsBullet.rsNavSelected span {
-	background-color: var(--header-style-1-color);
+	background-color: $color_curious_blue_approx;
 }
 .flex-direction-nav a {
 	background-color: $color_lightning_yellow_70_approx;
